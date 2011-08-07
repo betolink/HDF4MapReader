@@ -58,7 +58,7 @@ def usage(args):
     Print the usage of the command line, the paths are relative to the script location. 
       
    '''
-    print "Usage for multiple maps: ", args[len(args)-1] ," ./hdfmr -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-b] [-r]"
+    print "Usage for multiple maps: ", args[len(args)-1] ," -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-b] [-r]"
     print "Usage for a single map:  ", args[len(args)-1], "-f [filename] -l|-e [HDF_object] [-b] [-r]   "
     print " [filename]: a Valid XML map file"
     print " -e: extract the object(s)"

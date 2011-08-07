@@ -9,7 +9,7 @@
 * 	License: GPL v3		
 *														
 *	Proyect home: http://hdf4mapreader.sourceforge.net/							
-*	SVN : svn co https://hdf4mapreader.svn.sourceforge.net/svnroot/hdf4mapreader hdf4mapreader					
+*	SVN : svn co https://hdf4mapreader.svn.sourceforge.net/svnroot/hdf4mapreader/hdfmr/trunk					
 *														
 *	Comments/questions: lopez@kryos.colorado.org								
 *														
@@ -42,6 +42,8 @@ Dependencies:
 
 lxml: http://lxml.de/
 numpy: http://new.scipy.org/download.html
+PIL: http://pypi.python.org/pypi/PIL
+
 
 How to use it:
 
