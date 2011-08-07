@@ -31,7 +31,7 @@
       <th class="navbar" align="right" width="100%">
         <table border="0" cellpadding="0" cellspacing="0">
           <tr><th class="navbar" align="center"
-            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+            ><a class="navbar" target="_top" href="https://sourceforge.net/projects/hdf4mapreader/">HDF map reader</a></th>
           </tr></table></th>
   </tr>
 </table>
@@ -91,12 +91,15 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#ExtractValidationData" class="summary-sig-name">ExtractValidationData</a>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">node</span>)</span><br />
-      Appends the validation values to a dictionary on the dataValidator 
-      class</td>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">map_file</span>,
+        <span class="summary-sig-arg">operation</span>,
+        <span class="summary-sig-arg">hdf_object</span>,
+        <span class="summary-sig-arg">output_format</span>,
+        <span class="summary-sig-arg">verbose</span>)</span><br />
+      Constructor:</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -110,15 +113,30 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">map_file</span>,
-        <span class="summary-sig-arg">operation</span>,
-        <span class="summary-sig-arg">hdf_object</span>,
-        <span class="summary-sig-arg">output_format</span>,
-        <span class="summary-sig-arg">verbose</span>)</span><br />
-      Constructor:</td>
+          <td><span class="summary-sig"><a name="parseAndDumpMapContent"></a><span class="summary-sig-name">parseAndDumpMapContent</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Parses the XML map and dumps or list the HDF4 objects that are found.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.parseAndDumpMapContent">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#recursiveWalk" class="summary-sig-name">recursiveWalk</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">root_node</span>,
+        <span class="summary-sig-arg">depth</span>)</span><br />
+      This recursive function traverse the XML document using the 
+      ElementTree API; all the nodess are stored in a tree-like structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -172,30 +190,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a name="parseAndDumpMapContent"></a><span class="summary-sig-name">parseAndDumpMapContent</span>(<span class="summary-sig-arg">self</span>)</span><br />
-      Parses the XML map and dumps or list the HDF4 objects that are found.</td>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#ExtractValidationData" class="summary-sig-name">ExtractValidationData</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>)</span><br />
+      Appends the validation values to a dictionary on the dataValidator 
+      class</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.parseAndDumpMapContent">source&nbsp;code</a></span>
-            
-          </td>
-        </tr>
-      </table>
-      
-    </td>
-  </tr>
-<tr>
-    <td width="15%" align="right" valign="top" class="summary">
-      <span class="summary-type">&nbsp;</span>
-    </td><td class="summary">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#recursiveWalk" class="summary-sig-name">recursiveWalk</a>(<span class="summary-sig-arg">self</span>,
-        <span class="summary-sig-arg">root_node</span>,
-        <span class="summary-sig-arg">depth</span>)</span><br />
-      This recursive function traverse the XML document using the 
-      ElementTree API; all the nodess are stored in a tree-like structure.</td>
-          <td align="right" valign="top">
-            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -222,31 +222,6 @@
   </td>
 </tr>
 </table>
-<a name="ExtractValidationData"></a>
-<div>
-<table class="details" border="1" cellpadding="3"
-       cellspacing="0" width="100%" bgcolor="white">
-<tr><td>
-  <table width="100%" cellpadding="0" cellspacing="0" border="0">
-  <tr valign="top"><td>
-  <h3 class="epydoc"><span class="sig"><span class="sig-name">ExtractValidationData</span>(<span class="sig-arg">self</span>,
-        <span class="sig-arg">node</span>)</span>
-  </h3>
-  </td><td align="right" valign="top"
-    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>&nbsp;
-    </td>
-  </tr></table>
-  
-  <p>Appends the validation values to a dictionary on the dataValidator 
-  class</p>
-  <dl class="fields">
-    <dt>Parameters:</dt>
-    <dd><ul class="nomargin-top">
-        <li><strong class="pname"><code>node</code></strong> - an HDF object (lxml node instance)</li>
-    </ul></dd>
-  </dl>
-</td></tr></table>
-</div>
 <a name="__init__"></a>
 <div>
 <table class="details" border="1" cellpadding="3"
@@ -274,7 +249,41 @@
         <li><strong class="pname"><code>map_file</code></strong> - HDF4 xml map file generated by the HDF4 map writer</li>
         <li><strong class="pname"><code>operation</code></strong> - read / dump content of the HDF file</li>
         <li><strong class="pname"><code>hdf_object</code></strong> - target objects inside the HDf file (SDS, VData, RIS, ALL)</li>
-        <li><strong class="pname"><code>dump_format</code></strong> - binary / ascii in CSV files /numpy table</li>
+        <li><strong class="pname"><code>output_format</code></strong> - binary / ascii in CSV files /numpy table</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="recursiveWalk"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">recursiveWalk</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">root_node</span>,
+        <span class="sig-arg">depth</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This recursive function traverse the XML document using the 
+  ElementTree API; all the nodess are stored in a tree-like structure. If a
+  tag is recognized the method uses &quot;self.operation&quot; to either 
+  print a short version of the XML file or extract the object into to a CSV
+  file.</p>
+  <p>If a 'Group' tag is found, the attribute 'ID' is inserted in a stack; 
+  its node will have this value as prefix for the file name. This is 
+  accumulative, if a given VData object is under the group ID_ABC and 
+  ID_DEF the CSV file will be named: G-ID_ABC-G-ID_DEF.csv</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>root_node</code></strong> - lxml root node of the map file</li>
+        <li><strong class="pname"><code>depth</code></strong> - used to keep track of the recursion level, 0 on the first call</li>
     </ul></dd>
   </dl>
 </td></tr></table>
@@ -334,36 +343,27 @@
   </dl>
 </td></tr></table>
 </div>
-<a name="recursiveWalk"></a>
+<a name="ExtractValidationData"></a>
 <div>
 <table class="details" border="1" cellpadding="3"
        cellspacing="0" width="100%" bgcolor="white">
 <tr><td>
   <table width="100%" cellpadding="0" cellspacing="0" border="0">
   <tr valign="top"><td>
-  <h3 class="epydoc"><span class="sig"><span class="sig-name">recursiveWalk</span>(<span class="sig-arg">self</span>,
-        <span class="sig-arg">root_node</span>,
-        <span class="sig-arg">depth</span>)</span>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">ExtractValidationData</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
-  <p>This recursive function traverse the XML document using the 
-  ElementTree API; all the nodess are stored in a tree-like structure. If a
-  tag is recognized the method uses &quot;self.operation&quot; to either 
-  print a short version of the XML file or extract the object into to a CSV
-  file.</p>
-  <p>If a 'Group' tag is found, the attribute 'ID' is inserted in a stack; 
-  its node will have this value as prefix for the file name. This is 
-  accumulative, if a given VData object is under the group ID_ABC and 
-  ID_DEF the CSV file will be named: G-ID_ABC-G-ID_DEF.csv</p>
+  <p>Appends the validation values to a dictionary on the dataValidator 
+  class</p>
   <dl class="fields">
     <dt>Parameters:</dt>
     <dd><ul class="nomargin-top">
-        <li><strong class="pname"><code>root_node</code></strong> - lxml root node of the map file</li>
-        <li><strong class="pname"><code>depth</code></strong> - used to keep track of the recursion level, 0 on the first call</li>
+        <li><strong class="pname"><code>node</code></strong> - an HDF object (lxml node instance)</li>
     </ul></dd>
   </dl>
 </td></tr></table>
@@ -390,14 +390,14 @@
       <th class="navbar" align="right" width="100%">
         <table border="0" cellpadding="0" cellspacing="0">
           <tr><th class="navbar" align="center"
-            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+            ><a class="navbar" target="_top" href="https://sourceforge.net/projects/hdf4mapreader/">HDF map reader</a></th>
           </tr></table></th>
   </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Sun Aug  7 13:40:51 2011
+    Generated by Epydoc 3.0.1 on Sun Aug  7 16:08:39 2011
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"

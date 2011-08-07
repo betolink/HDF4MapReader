@@ -278,4 +278,5 @@ class XMLparser():
                                         coords=m[1].split(",")
                                         value=m[2][1:]                        
                                         self.val.append([coords,value])                                
-                            self.dataValidator.validationDictionary[objectName]=self.val   
+                            self.dataValidator.validationDictionary[objectName]=self.val
+                            

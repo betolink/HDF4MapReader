@@ -1,5 +1,7 @@
 HFDFhandler	HFDFhandler-module.html
 HFDFhandler.__package__	HFDFhandler-module.html#__package__
+Plotter	Plotter-module.html
+Plotter.__package__	Plotter-module.html#__package__
 RIS	RIS-module.html
 RIS.__package__	RIS-module.html#__package__
 Reader	Reader-module.html
