@@ -1,0 +1,505 @@
+pydev debugger: warning: psyco not available for speedups (the debugger will still work correctly, but a bit slower)
+pydev debugger: starting
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/g3a.cld.200512v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAL_SUM_2000_F04_0010.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGCL_AUG_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/g3a.t.00107820v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_2005_F04_0017.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_MAR_2000_F02_0014.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_AGP_P001_F01_24.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_SPR_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/g3a.lsp.00221540v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGCL_FALL_2000_F02_0020.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAL_AUG_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_SPR_2000_F02_0014.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_ACP_APOP_F04_0005.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAL_2005_F06_0012.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGLS_MAR_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/g3a.ssp.00107820v04.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/GOMACCS/MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/GOMACCS/MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/GOMACCS/MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/GOMACCS/MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/GOMACCS/MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf
+/projects/HDFMAP/lopez/Data/LARC/SAGE/g3a.cld.200512v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/SAGE/g3a.t.00107820v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/SAGE/g3a.lsp.00221540v03.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/SAGE/g3a.ssp.00107820v04.00.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAL_SUM_2000_F04_0010.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGCL_AUG_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_2005_F04_0017.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_MAR_2000_F02_0014.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_AGP_P001_F01_24.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_SPR_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGCL_FALL_2000_F02_0020.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAL_AUG_2007_F06_0022.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_SPR_2000_F02_0014.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_ACP_APOP_F04_0005.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAL_2005_F06_0012.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGLS_MAR_2000_F02_0008.hdf
+/projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf
+Total files found: 100
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'g3a.cld.200512v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAL_SUM_2000_F04_0010.hdf'] output: 0 
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `~/mapwriter/bin/h4mapwriter /projects/HDFMAP/lopez/Data/LARC/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf'
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf'] output: 2 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGCL_AUG_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'g3a.t.00107820v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_2005_F04_0017.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_MAR_2000_F02_0014.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_AGP_P001_F01_24.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_SPR_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'g3a.lsp.00221540v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGCL_FALL_2000_F02_0020.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAL_AUG_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_SPR_2000_F02_0014.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_ACP_APOP_F04_0005.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAL_2005_F06_0012.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGLS_MAR_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC', 'g3a.ssp.00107820v04.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/GOMACCS', 'MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/GOMACCS', 'MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/GOMACCS', 'MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/GOMACCS', 'MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/GOMACCS', 'MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/SAGE', 'g3a.cld.200512v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/SAGE', 'g3a.t.00107820v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/SAGE', 'g3a.lsp.00221540v03.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/SAGE', 'g3a.ssp.00107820v04.00.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAL_SUM_2000_F04_0010.hdf'] output: 0 
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `~/mapwriter/bin/h4mapwriter /projects/HDFMAP/lopez/Data/LARC/MISR/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf'
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf'] output: 2 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGCL_AUG_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_2005_F04_0017.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_MAR_2000_F02_0014.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_AGP_P001_F01_24.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_SPR_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGCL_FALL_2000_F02_0020.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAL_AUG_2007_F06_0022.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_SPR_2000_F02_0014.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_ACP_APOP_F04_0005.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAL_2005_F06_0012.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGLS_MAR_2000_F02_0008.hdf'] output: 0 
+/home/lopez/mapwriter/bin/h4mapwriter: /usr/lib/libcrypto.so.0.9.8: no version information available (required by /home/lopez/mapwriter/bin/h4mapwriter)
+ File ['/projects/HDFMAP/lopez/Data/LARC/MISR', 'MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf'] output: 0 
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_2005_F04_0017.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_AUG_2007_F06_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_AUG_2007_F02_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_SPR_2000_F02_0008.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_SPR_2000_F02_0014.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_2000_F02_0008.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AGP_P001_F01_24.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/g3a.cld.200512v03.00.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/g3a.lsp.00221540v03.00.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_ACP_APOP_F04_0005.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_2005_F06_0012.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_SUM_2000_F04_0010.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/g3a.t.00107820v03.00.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/g3a.ssp.00107820v04.00.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_FALL_2000_F02_0020.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_2000_F02_0014.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_2000_F02_0008.hdf.xml
+Total files found: 50
+Directory created :MISR_AM1_CGLS_2005_F04_0017.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_2005_F04_0017.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_ELLIPSOID_GM_P023_O002932_AA_F03_0023.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAL_AUG_2007_F06_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_AUG_2007_F06_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_AEROSOL_P183_O001078_F10_0020.hdf.xml
+Directory created :MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_01_2006_SITE_INTEXB_F04_0021.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_LAND_FIRSTLOOK_P106_O043086_F07_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGCL_AUG_2007_F02_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_AUG_2007_F02_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_SPR_2000_F02_0008.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_SPR_2000_F02_0008.hdf.xml
+Tear down ... 
+Directory created :MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AEROSOL_P017_O036105_F10_0020_GOM_b64-72.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGLS_SPR_2000_F02_0014.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_SPR_2000_F02_0014.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_2000_F02_0008.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_2000_F02_0008.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_AGP_P001_F01_24.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AGP_P001_F01_24.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_ELLIPSOID_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml
+Tear down ... 
+Directory created :MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_STEREO_P017_O036105_F08_0016_GOM_b64-72.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_LAND_P106_O041455_F06_0021.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_FIRSTLOOK_AUG_30_2007_F11_0027.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_2000_F02_0009.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_OCT_02_2007_F04_0027.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_TERRAIN_LM_P161_O001164_AA_SITE_EGYPTDESERT_F03_0023.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_RCCM_GM_P004_O041536_AN_F04_0025.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_2006_SITE_INTEXB_F04_0021.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_JUN_04_2000_F02_0023.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_OCT_02_2007_F02_0022.hdf.xml
+Tear down ... 
+Directory created :g3a.cld.200512v03.00.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.cld.200512v03.00.hdf.xml
+Tear down ... 
+Directory created :g3a.lsp.00221540v03.00.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.lsp.00221540v03.00.hdf.xml
+can't open the file : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.lsp.00221540v03.00.hdf.xml_dump/Root-- G-ID_G1  G-ID_G12 Temperature/pressure profiles-ID_T12
+Tear down ... 
+Directory created :MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_01_2006_SITE_INTEXB_F02_0019.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_OCT_02_2007_F06_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_GMP_P017_O036105_F03_0013_GOM_b64-72.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_01_2006_SITE_INTEXB_F06_0021.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_TERRAIN_GM_P097_O043100_AA_F03_0024.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_FIRSTLOOK_AUG_30_2007_F06_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_AS_AEROSOL_FIRSTLOOK_P106_O043086_F12_0022.hdf.xml
+Directory created :MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_ELLIPSOID_GM_P017_O036105_DF_F03_0024_GOM_b64-72.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_2006_SITE_INTEXB_F06_0021.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_FIRSTLOOK_AUG_30_2007_F04_0027.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_FIRSTLOOK_AUG_30_2007_F02_0022.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_ACP_APOP_F04_0005.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_ACP_APOP_F04_0005.hdf.xml
+Directory created :MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_MAR_2006_SITE_INTEXB_F02_0019.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_OCT_02_2007_F11_0027.hdf.xml
+Tear down ... 
+Directory created :MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_LAND_P017_O036105_F06_0020_GOM_b64-72.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAL_2005_F06_0012.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_2005_F06_0012.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAL_SUM_2000_F04_0010.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAL_SUM_2000_F04_0010.hdf.xml
+Tear down ... 
+Directory created :g3a.t.00107820v03.00.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.t.00107820v03.00.hdf.xml
+Tear down ... 
+Directory created :g3a.ssp.00107820v04.00.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.ssp.00107820v04.00.hdf.xml
+can't open the file : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.ssp.00107820v04.00.hdf.xml_dump/Root-- G-ID_G1  G-ID_G4  G-ID_G9 Temperature/pressure profiles-ID_T9
+can't open the file : /projects/HDFMAP/lopez/Data/maps/LARC/g3a.ssp.00107820v04.00.hdf.xml_dump/Root-- G-ID_G1  G-ID_G4  G-ID_G17 Temperature/pressure profiles retrieved-ID_T17
+Tear down ... 
+Directory created :MISR_AM1_CGCL_FALL_2000_F02_0020.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGCL_FALL_2000_F02_0020.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGGRP_FIRSTLOOK_AUG_30_2007_F02_0023(2).hdf.xml
+Directory created :MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GRP_RCCM_FIRSTLOOK_GM_P097_O043100_AA_F04_0025.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_GP_GMP_P002_O002421_F03_0013.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGAS_MAR_2000_F02_0014.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGAS_MAR_2000_F02_0014.hdf.xml
+Tear down ... 
+Directory created :MISR_AM1_CGLS_MAR_2000_F02_0008.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/LARC/MISR_AM1_CGLS_MAR_2000_F02_0008.hdf.xml
+Tear down ... 

@@ -1,0 +1,461 @@
+pydev debugger: warning: psyco not available for speedups (the debugger will still work correctly, but a bit slower)
+pydev debugger: starting
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD02HKM.A2007016.0245.005.2007312120020.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD03.A2007001.0000.005.2007147041359.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD04_L2.A2007001.0005.005.2007003084252.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD07_L2.A2007001.0000.005.2007003012910.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD05_L2.A2007001.0000.005.2007147171013.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/DAS.llk.asm.U_Montana.GEOS403.2007020600.2007020621.V01.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_E3.A2007001.005.2007026172507.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD01.A2007001.0440.005.2007311085701.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/NISE_SSMIF13_20070101.HDFEOS.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDARNSS.Abracos_Hill.A2007001.1805.005.2007147171719.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.1.24.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDATML2.A2007001.0000.005.2007147172208.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD021KM.A2007017.0125.005.2007086235023.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.1.64.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD05_L2.A2007001.0000.005.2007003080205.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD02HKM.A2007020.0725.005.2007149230137.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD021KM.A2007001.0030.005.2007147163938.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODATML2.A2007001.0000.005.2007003082041.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD35_L2.A2007001.0000.005.2007038221057.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.0.858.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD06_L2.A2007001.0000.005.2007003081916.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD03.A2007001.0000.005.2007041030714.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_B.A2007001.005.2007011182753.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_M3.A2007001.005.2007104002916.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD02QKM.A2007001.0005.005.2007307210540.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD04_L2.A2007001.0000.005.2007147171512.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD02QKM.A2007022.0850.005.2007150064257.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_D3.A2007001.005.2007148203652.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_8.A2007001.005.2007011182406.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODARNSS.Abracos_Hill.A2007001.1515.005.2007003050459.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.2.13.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_B.A2007001.005.2007012175238.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD06_L2.A2007001.0000.005.2007004000901.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_8.A2007001.005.2007012175136.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_G.A2007001.0000.005.2007003021740.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD02SSH.A2007001.0000.005.2007003013941.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD35_L2.A2007001.0000.005.2007003012423.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_D.A2007001.005.2007004142531.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD02SSH.A2007001.0000.005.2007147170234.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_G.A2007001.0000.005.2007003022635.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_M3.A2007001.005.2007151073001.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_D3.A2007001.005.2007004130642.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_E3.A2007001.005.2007150063416.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYD07_L2.A2007001.0000.005.2007038221343.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD021KM.A2007274.0030.005.2007274130211.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD02OBC.A2007001.0005.005.2007307210540.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_D.A2007001.005.2007004095810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.0.659.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/LAADS/MOD01.A2007303.0325.005.2007306182401.hdf.xml
+Total files found: 49
+Directory created :MOD02HKM.A2007016.0245.005.2007312120020.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD02HKM.A2007016.0245.005.2007312120020.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_500_RefSB
+Values not matching in ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Values not matching in ID_A3
+Values not matching in ID_A3
+Values not matching in ID_A3
+Values not matching in ID_A3
+    Valid values: False
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MYD03.A2007001.0000.005.2007147041359.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD03.A2007001.0000.005.2007147041359.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Height
+    Valid values: True
+--Array: Scan number
+  Valid values: True
+Tear down ... 
+Directory created :MOD04_L2.A2007001.0005.005.2007003084252.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD04_L2.A2007001.0005.005.2007003084252.hdf.xml
+----Array: Longitude
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MOD07_L2.A2007001.0000.005.2007003012910.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD07_L2.A2007001.0000.005.2007003012910.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Band_Number
+    Valid values: True
+----VData: Pressure_Level
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MYD05_L2.A2007001.0000.005.2007147171013.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD05_L2.A2007001.0000.005.2007147171013.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :DAS.llk.asm.U_Montana.GEOS403.2007020600.2007020621.V01.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/DAS.llk.asm.U_Montana.GEOS403.2007020600.2007020621.V01.hdf.xml
+----Array: T10M
+    Valid values: True
+Tear down ... 
+Directory created :MOD08_E3.A2007001.005.2007026172507.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_E3.A2007001.005.2007026172507.hdf.xml
+----Array: Solar_Zenith_Mean_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MYD01.A2007001.0440.005.2007311085701.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD01.A2007001.0440.005.2007311085701.hdf.xml
+--Array: Scan number
+  Valid values: True
+Tear down ... 
+Directory created :NISE_SSMIF13_20070101.HDFEOS.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/NISE_SSMIF13_20070101.HDFEOS.hdf.xml
+----Array: Extent
+    Valid values: True
+----Array: Extent
+    Valid values: True
+Tear down ... 
+Directory created :MYDARNSS.Abracos_Hill.A2007001.1805.005.2007147171719.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDARNSS.Abracos_Hill.A2007001.1805.005.2007147171719.hdf.xml
+--Array: EV_250_RefSB
+  Valid values: True
+Tear down ... 
+Directory created :AlbMap.WS.c004.v2.0.00-04.001.1.24.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.1.24.hdf.xml
+--Array: Latitude
+  Valid values: True
+Tear down ... 
+Directory created :MYDATML2.A2007001.0000.005.2007147172208.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDATML2.A2007001.0000.005.2007147172208.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Cloud_Optical_Thickness
+    Valid values: True
+Tear down ... 
+Directory created :MOD021KM.A2007017.0125.005.2007086235023.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD021KM.A2007017.0125.005.2007086235023.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_1KM_RefSB
+    Valid values: True
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :AlbMap.WS.c004.v2.0.00-04.001.1.64.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.1.64.hdf.xml
+--Array: Latitude
+  Valid values: True
+Tear down ... 
+Directory created :MOD05_L2.A2007001.0000.005.2007003080205.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD05_L2.A2007001.0000.005.2007003080205.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+The output directory already exist: MYD02HKM.A2007020.0725.005.2007149230137.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD02HKM.A2007020.0725.005.2007149230137.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_500_RefSB
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Values not matching in ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+    Valid values: False
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MYD021KM.A2007001.0030.005.2007147163938.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD021KM.A2007001.0030.005.2007147163938.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_1KM_RefSB
+    Valid values: True
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MODATML2.A2007001.0000.005.2007003082041.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODATML2.A2007001.0000.005.2007003082041.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Cloud_Optical_Thickness
+    Valid values: True
+Tear down ... 
+Directory created :MYD35_L2.A2007001.0000.005.2007038221057.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD35_L2.A2007001.0000.005.2007038221057.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Byte_Segment
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :AlbMap.WS.c004.v2.0.00-04.001.0.858.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.0.858.hdf.xml
+--Array: Latitude
+  Valid values: True
+Tear down ... 
+Directory created :MOD06_L2.A2007001.0000.005.2007003081916.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD06_L2.A2007001.0000.005.2007003081916.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Band_Number
+    Valid values: True
+----VData: Statistics_1km
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MOD03.A2007001.0000.005.2007041030714.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD03.A2007001.0000.005.2007041030714.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: Height
+    Valid values: True
+--Array: Scan number
+  Valid values: True
+Tear down ... 
+Directory created :MYDCSR_B.A2007001.005.2007011182753.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_B.A2007001.005.2007011182753.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Ocean_Clear_Sky_Bias
+    Valid values: True
+Tear down ... 
+Directory created :MOD08_M3.A2007001.005.2007104002916.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_M3.A2007001.005.2007104002916.hdf.xml
+----Array: Solar_Zenith_Mean_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MOD02QKM.A2007001.0005.005.2007307210540.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD02QKM.A2007001.0005.005.2007307210540.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_250_RefSB
+Values not matching in ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+    Valid values: False
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MYD04_L2.A2007001.0000.005.2007147171512.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD04_L2.A2007001.0000.005.2007147171512.hdf.xml
+----Array: Longitude
+    Valid values: True
+----VData: MODIS_Band_Land
+    Valid values: True
+----VData: MODIS_Band_Ocean
+    Valid values: True
+----VData: Solution_1_Land
+    Valid values: True
+----VData: Solution_2_Land
+    Valid values: True
+----VData: Solution_3_Land
+    Valid values: True
+----VData: Solution_Ocean
+    Valid values: True
+----VData: Solution_Index
+    Valid values: True
+----VData: Num_DeepBlue_Wavelengths
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MYD02QKM.A2007022.0850.005.2007150064257.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD02QKM.A2007022.0850.005.2007150064257.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_250_RefSB
+Values not matching in ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+Values not matching in ID_A3
+Values not matching in ID_A3
+Validation caused an error on ID_A3
+Validation caused an error on ID_A3
+    Valid values: False
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MYD08_D3.A2007001.005.2007148203652.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_D3.A2007001.005.2007148203652.hdf.xml
+----Array: Solar_Zenith_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MYDCSR_8.A2007001.005.2007011182406.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_8.A2007001.005.2007011182406.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Eight_Day_Clear_Radiance_Band_01
+    Valid values: True
+Tear down ... 
+Directory created :MODARNSS.Abracos_Hill.A2007001.1515.005.2007003050459.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODARNSS.Abracos_Hill.A2007001.1515.005.2007003050459.hdf.xml
+--Array: EV_250_RefSB
+  Valid values: True
+Tear down ... 
+Directory created :AlbMap.WS.c004.v2.0.00-04.001.2.13.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.2.13.hdf.xml
+--Array: Latitude
+  Valid values: True
+Tear down ... 
+Directory created :MODCSR_B.A2007001.005.2007012175238.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_B.A2007001.005.2007012175238.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Ocean_Clear_Sky_Bias
+    Valid values: True
+Tear down ... 
+Directory created :MYD06_L2.A2007001.0000.005.2007004000901.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD06_L2.A2007001.0000.005.2007004000901.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Band_Number
+    Valid values: True
+----VData: Statistics_1km
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MODCSR_8.A2007001.005.2007012175136.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_8.A2007001.005.2007012175136.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Eight_Day_Clear_Radiance_Band_01
+    Valid values: True
+Tear down ... 
+Directory created :MYDCSR_G.A2007001.0000.005.2007003021740.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_G.A2007001.0000.005.2007003021740.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Grid_Index_Day
+    Valid values: True
+Tear down ... 
+Directory created :MOD02SSH.A2007001.0000.005.2007003013941.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD02SSH.A2007001.0000.005.2007003013941.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_1KM_RefSB
+    Valid values: True
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MOD35_L2.A2007001.0000.005.2007003012423.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD35_L2.A2007001.0000.005.2007003012423.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Byte_Segment
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MODCSR_D.A2007001.005.2007004142531.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_D.A2007001.005.2007004142531.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Clear_Radiance_Day_Band_01
+    Valid values: True
+Tear down ... 
+Directory created :MYD02SSH.A2007001.0000.005.2007147170234.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD02SSH.A2007001.0000.005.2007147170234.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_1KM_RefSB
+    Valid values: True
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MODCSR_G.A2007001.0000.005.2007003022635.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MODCSR_G.A2007001.0000.005.2007003022635.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Grid_Index_Day
+    Valid values: True
+Tear down ... 
+Directory created :MYD08_M3.A2007001.005.2007151073001.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_M3.A2007001.005.2007151073001.hdf.xml
+----Array: Solar_Zenith_Mean_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MOD08_D3.A2007001.005.2007004130642.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD08_D3.A2007001.005.2007004130642.hdf.xml
+----Array: Solar_Zenith_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MYD08_E3.A2007001.005.2007150063416.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD08_E3.A2007001.005.2007150063416.hdf.xml
+----Array: Solar_Zenith_Mean_Mean
+    Valid values: True
+Tear down ... 
+Directory created :MYD07_L2.A2007001.0000.005.2007038221343.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYD07_L2.A2007001.0000.005.2007038221343.hdf.xml
+----Array: Latitude
+    Valid values: True
+----VData: Band_Number
+    Valid values: True
+----VData: Pressure_Level
+    Valid values: True
+----Array: Scan_Start_Time
+    Valid values: True
+Tear down ... 
+Directory created :MOD021KM.A2007274.0030.005.2007274130211.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD021KM.A2007274.0030.005.2007274130211.hdf.xml
+----Array: Latitude
+    Valid values: True
+----Array: EV_1KM_RefSB
+    Valid values: False
+--Array: Noise in Thermal Detectors
+  Valid values: True
+Tear down ... 
+Directory created :MOD02OBC.A2007001.0005.005.2007307210540.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD02OBC.A2007001.0005.005.2007307210540.hdf.xml
+--Array: SD_250m
+  Valid values: True
+Tear down ... 
+Directory created :MYDCSR_D.A2007001.005.2007004095810.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MYDCSR_D.A2007001.005.2007004095810.hdf.xml
+----VData: Band_Number
+    Valid values: True
+----Array: Clear_Radiance_Day_Band_01
+    Valid values: True
+Tear down ... 
+Directory created :AlbMap.WS.c004.v2.0.00-04.001.0.659.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/AlbMap.WS.c004.v2.0.00-04.001.0.659.hdf.xml
+--Array: Latitude
+  Valid values: True
+Tear down ... 
+Directory created :MOD01.A2007303.0325.005.2007306182401.hdf.xml_dump
+Processing : /projects/HDFMAP/lopez/Data/maps/LAADS/MOD01.A2007303.0325.005.2007306182401.hdf.xml
+--Array: Scan number
+  Valid values: True
+Tear down ... 

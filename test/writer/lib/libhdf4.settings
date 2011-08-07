@@ -1,0 +1,35 @@
+	    SUMMARY OF THE HDF4 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF4 Version: 4.2.6
+		  Configured on: Thu Jul 21 13:06:19 MDT 2011
+		  Configured by: beto@betoHP
+		 Configure mode: production
+		    Host system: i686-pc-linux-gnu
+              Uname information: Linux betoHP 2.6.35-22-generic #33-Ubuntu SMP Sun Sep 19 20:34:50 UTC 2010 i686 GNU/Linux
+		      Libraries: 
+	     Installation point: /home/beto/Downloads/h4map/install
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C compiler: /usr/bin/gcc
+                         CFLAGS:  -O3 -fomit-frame-pointer
+                       CPPFLAGS: -I/usr/include/rpc  -I/home/beto/Downloads/h4map/install/include -I/home/beto/Downloads/h4map/install/include -I/home/beto/Downloads/h4map/install/include -DSWAP 
+               Shared Libraries: no
+               Static Libraries: yes
+                        LDFLAGS:  -L/home/beto/Downloads/h4map/install/lib -L/home/beto/Downloads/h4map/install/lib -L/home/beto/Downloads/h4map/install/lib
+ 	 	Extra libraries: -lsz -ljpeg -lz 
+ 		       Archiver: ar
+ 		 	 Ranlib: ranlib
+
+Languages:
+----------
+                        Fortran: no
+
+Features:
+---------
+               SZIP compression: enabled with decoder only
+   Support for netCDF API 2.3.2: yes

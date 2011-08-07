@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- This XML file provides access to data stored in a companion HDF4 file 
+		without requiring HDF4 software. The HDF4FileInformation element provides 
+		information about the companion HDF4 file. -->
+	<h4:HDF4FileInformation>
+		<h4:fileName>AIRS.2002.09.01.L3.RetQuant_H030.v5.0.14.0.G07191213218.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>4532884</h4:fileSize>
+		<h4:md5Checksum>4d1bf51c00ecf66283085f1a31f82551</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+
+	<h4:HDF4FileContents>
+		<h4:Array name="PhysicalValues" path="/L3Quant/Data Fields"
+			nDimensions="4" id="ID_A14">
+			<h4:ArrayAttribute name="_FillValue" id="ID_AA14">
+				<h4:datum dataType="float32" byteOrder="bigEndian"
+					floatingPointFormat="IEEE" />
+				<h4:attributeData>
+					<h4:byteStream offset="4436578" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>0.000000</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>100 35 36 72</h4:dataDimensionSizes>
+			<h4:dimensionRef name="MaxNumClusters:L3Quant"
+				dimensionIndex="0" ref="ID_D3" />
+			<h4:dimensionRef name="NumDimPhys:L3Quant"
+				dimensionIndex="1" ref="ID_D6" />
+			<h4:dimensionRef name="LatDim:L3Quant"
+				dimensionIndex="2" ref="ID_D1" />
+			<h4:dimensionRef name="LonDim:L3Quant"
+				dimensionIndex="3" ref="ID_D2" />
+			<h4:datum dataType="float32" byteOrder="bigEndian"
+				floatingPointFormat="IEEE" />
+			<h4:arrayData fastestVaryingDimensionIndex="3"
+				compressionType="deflate" deflate_level="5">
+				<h4:byteStreamSet>
+					<h4:byteStream offset="146404" nBytes="2498560" />
+					<h4:byteStream offset="4386489" nBytes="2916" />
+				</h4:byteStreamSet>
+			</h4:arrayData>
+			<!-- value(s) for verification PhysicalValues[0,0,0,0]=0.000000 PhysicalValues[99,0,0,0]=0.000000 
+				PhysicalValues[0,34,0,0]=0.000000 PhysicalValues[99,34,0,0]=0.000000 PhysicalValues[0,0,35,0]=265.861267 
+				PhysicalValues[99,0,35,0]=0.000000 PhysicalValues[0,34,35,0]=0.500000 PhysicalValues[99,34,35,0]=0.000000 
+				PhysicalValues[0,0,0,71]=0.000000 PhysicalValues[99,0,0,71]=0.000000 PhysicalValues[0,34,0,71]=0.000000 
+				PhysicalValues[99,34,0,71]=0.000000 PhysicalValues[0,0,35,71]=264.658752 
+				PhysicalValues[99,0,35,71]=0.000000 PhysicalValues[0,34,35,71]=0.000000 PhysicalValues[99,34,35,71]=0.000000 
+				PhysicalValues[0,8,3,11]=209.604782 PhysicalValues[6,20,10,10]=0.010763 PhysicalValues[16,28,26,21]=0.614121 
+				PhysicalValues[6,24,28,0]=0.013834 PhysicalValues[0,18,22,70]=0.257549 -->
+		</h4:Array>
+		<h4:Array name="PentadComposition" path="/L3Quant/Data Fields"
+			nDimensions="4" id="ID_A15">
+			<h4:ArrayAttribute name="_FillValue" id="ID_AA15">
+				<h4:datum dataType="int16" byteOrder="bigEndian" />
+				<h4:attributeData>
+					<h4:byteStream offset="4436771" nBytes="2" />
+				</h4:attributeData>
+				<h4:numericValues>0</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>100 6 36 72</h4:dataDimensionSizes>
+			<h4:dimensionRef name="MaxNumClusters:L3Quant"
+				dimensionIndex="0" ref="ID_D3" />
+			<h4:dimensionRef name="NumPentad:L3Quant"
+				dimensionIndex="1" ref="ID_D7" />
+			<h4:dimensionRef name="LatDim:L3Quant"
+				dimensionIndex="2" ref="ID_D1" />
+			<h4:dimensionRef name="LonDim:L3Quant"
+				dimensionIndex="3" ref="ID_D2" />
+			<h4:datum dataType="int16" byteOrder="bigEndian" />
+			<h4:arrayData fastestVaryingDimensionIndex="3"
+				compressionType="deflate" deflate_level="5">
+				<h4:byteStreamSet>
+					<h4:byteStream offset="4172772" nBytes="147456" />
+					<h4:byteStream offset="4390635" nBytes="528" />
+				</h4:byteStreamSet>
+			</h4:arrayData>
+			<!-- value(s) for verification PentadComposition[0,0,0,0]=0 PentadComposition[99,0,0,0]=0 
+				PentadComposition[0,5,0,0]=0 PentadComposition[99,5,0,0]=0 PentadComposition[0,0,35,0]=29 
+				PentadComposition[99,0,35,0]=0 PentadComposition[0,5,35,0]=42 PentadComposition[99,5,35,0]=0 
+				PentadComposition[0,0,0,71]=0 PentadComposition[99,0,0,71]=0 PentadComposition[0,5,0,71]=0 
+				PentadComposition[99,5,0,71]=0 PentadComposition[0,0,35,71]=13 PentadComposition[99,0,35,71]=0 
+				PentadComposition[0,5,35,71]=17 PentadComposition[99,5,35,71]=0 PentadComposition[6,3,18,32]=53 
+				PentadComposition[3,4,18,15]=278 PentadComposition[4,5,20,0]=266 PentadComposition[14,1,19,21]=131 
+				PentadComposition[0,5,13,63]=14 -->
+		</h4:Array>
+		<h4:Dimension name="LatDim:L3Quant" id="ID_D1" />
+		<h4:Dimension name="LonDim:L3Quant" id="ID_D2" />
+		<h4:Dimension name="MaxNumClusters:L3Quant" id="ID_D3" />
+		<h4:Dimension name="NumTrials:L3Quant" id="ID_D4" />
+		<h4:Dimension name="NumDimNorm:L3Quant" id="ID_D5" />
+		<h4:Dimension name="NumDimPhys:L3Quant" id="ID_D6" />
+		<h4:Dimension name="NumPentad:L3Quant" id="ID_D7" />
+	</h4:HDF4FileContents>
+</h4:HDF4map>

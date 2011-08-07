@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<h4:HDF4FileInformation>
+		<h4:fileName>MOD10A2.A2003017.h16v01.005.2006126104131.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>112586</h4:fileSize>
+		<h4:md5Checksum>95697409db0ba7f21dac18217ac5c290</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+	<h4:HDF4FileContents>
+
+		<h4:Array name="Maximum_Snow_Extent" path="/MOD_Grid_Snow_500m/Data Fields"
+			nDimensions="2" id="ID_A1">
+			<h4:ArrayAttribute name="long_name" id="ID_AA1">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60363" nBytes="41" />
+				</h4:attributeData>
+				<h4:stringValue>Maximum snow extent over the 8-day period</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="units" id="ID_AA2">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60463" nBytes="4" />
+				</h4:attributeData>
+				<h4:stringValue>none</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="format" id="ID_AA3">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60522" nBytes="2" />
+				</h4:attributeData>
+				<h4:stringValue>I3</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="coordsys" id="ID_AA4">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60580" nBytes="9" />
+				</h4:attributeData>
+				<h4:stringValue>cartesian</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="valid_range" id="ID_AA5">
+				<h4:datum dataType="uint8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60647" nBytes="2" />
+				</h4:attributeData>
+				<h4:numericValues>0 254</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="_FillValue" id="ID_AA6">
+				<h4:datum dataType="uint8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60710" nBytes="1" />
+				</h4:attributeData>
+				<h4:numericValues>255</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="Cell_area (km^2)" id="ID_AA7">
+				<h4:datum dataType="float32" byteOrder="bigEndian"
+					floatingPointFormat="IEEE" />
+				<h4:attributeData>
+					<h4:byteStream offset="60771" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>0.214659</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="Max_snow_area (km^2)" id="ID_AA8">
+				<h4:datum dataType="float32" byteOrder="bigEndian"
+					floatingPointFormat="IEEE" />
+				<h4:attributeData>
+					<h4:byteStream offset="60841" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>0.000000</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="Key" id="ID_AA9">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="60915" nBytes="138" />
+				</h4:attributeData>
+				<h4:stringValue>0=missing data, 1=no decision, 11=night, 25=no snow,
+					37=lake, 39=ocean, 50=cloud, 100=lake ice, 200=snow, 254=detector
+					saturated, 255=fill</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>2400 2400</h4:dataDimensionSizes>
+			<h4:dimensionRef name="YDim:MOD_Grid_Snow_500m"
+				dimensionIndex="0" ref="ID_D1" />
+			<h4:dimensionRef name="XDim:MOD_Grid_Snow_500m"
+				dimensionIndex="1" ref="ID_D2" />
+			<h4:datum dataType="uint8" />
+			<h4:arrayData fastestVaryingDimensionIndex="1"
+				compressionType="deflate" deflate_level="9">
+				<h4:byteStreamSet>
+					<h4:byteStream offset="2665" nBytes="32768" />
+					<h4:byteStream offset="39579" nBytes="14302" />
+				</h4:byteStreamSet>
+			</h4:arrayData>
+			<!-- value(s) for verification Maximum_Snow_Extent[0,0]=255 Maximum_Snow_Extent[2399,0]=39 
+				Maximum_Snow_Extent[0,2399]=255 Maximum_Snow_Extent[2399,2399]=1 Maximum_Snow_Extent[1871,837]=1 
+				Maximum_Snow_Extent[2283,237]=39 Maximum_Snow_Extent[2031,753]=39 Maximum_Snow_Extent[1925,756]=1 
+				Maximum_Snow_Extent[2322,1175]=11 -->
+		</h4:Array>
+		<h4:Array name="Eight_Day_Snow_Cover" path="/MOD_Grid_Snow_500m/Data Fields"
+			nDimensions="2" id="ID_A2">
+			<h4:ArrayAttribute name="long_name" id="ID_AA10">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61248" nBytes="31" />
+				</h4:attributeData>
+				<h4:stringValue>Eight day snow cover chronobyte</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="units" id="ID_AA11">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61338" nBytes="3" />
+				</h4:attributeData>
+				<h4:stringValue>bit</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="format" id="ID_AA12">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61396" nBytes="2" />
+				</h4:attributeData>
+				<h4:stringValue>I3</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="coordsys" id="ID_AA13">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61454" nBytes="9" />
+				</h4:attributeData>
+				<h4:stringValue>cartesian</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="valid_range" id="ID_AA14">
+				<h4:datum dataType="uint8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61521" nBytes="2" />
+				</h4:attributeData>
+				<h4:numericValues>0 255</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="_FillValue" id="ID_AA15">
+				<h4:datum dataType="uint8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61584" nBytes="1" />
+				</h4:attributeData>
+				<h4:numericValues>0</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="Key" id="ID_AA16">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="61645" nBytes="197" />
+				</h4:attributeData>
+				<h4:stringValue>Snow occurrence in chronological order. Day in
+					period ordered as 87654321 corresponds to bit order of 76543210.
+					Bit value of 1 means snow was observed. Bit value of 0 means snow
+					was not observed.</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>2400 2400</h4:dataDimensionSizes>
+			<h4:dimensionRef name="YDim:MOD_Grid_Snow_500m"
+				dimensionIndex="0" ref="ID_D1" />
+			<h4:dimensionRef name="XDim:MOD_Grid_Snow_500m"
+				dimensionIndex="1" ref="ID_D2" />
+			<h4:datum dataType="uint8" />
+			<h4:arrayData fastestVaryingDimensionIndex="1"
+				compressionType="deflate" deflate_level="9">
+				<h4:byteStreamSet>
+					<h4:byteStream offset="35433" nBytes="4096" />
+					<h4:byteStream offset="56013" nBytes="1521" />
+				</h4:byteStreamSet>
+			</h4:arrayData>
+			<!-- value(s) for verification Eight_Day_Snow_Cover[0,0]=0 Eight_Day_Snow_Cover[2399,0]=0 
+				Eight_Day_Snow_Cover[0,2399]=0 Eight_Day_Snow_Cover[2399,2399]=0 Eight_Day_Snow_Cover[419,59]=0 
+				Eight_Day_Snow_Cover[1608,1352]=0 Eight_Day_Snow_Cover[1191,1681]=0 Eight_Day_Snow_Cover[94,844]=0 
+				Eight_Day_Snow_Cover[1844,357]=0 -->
+		</h4:Array>
+
+		<h4:Dimension name="YDim:MOD_Grid_Snow_500m" id="ID_D1" />
+		<h4:Dimension name="XDim:MOD_Grid_Snow_500m" id="ID_D2" />
+	</h4:HDF4FileContents>
+</h4:HDF4map>

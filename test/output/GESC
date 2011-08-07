@@ -1,0 +1,303 @@
+pydev debugger: warning: psyco not available for speedups (the debugger will still work correctly, but a bit slower)
+pydev debugger: starting
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC03S1.A2007289.0445.002.2007293055811.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.23.L3.RetStd_H001.v5.0.14.0.G07295092547.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM04S0.A2007306.1050.002.2007308201019.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.RetSup_H.v4.0.21.0.G07048164621.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC06S1.A2007288.1215.002.2007295131428.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC021S1.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.VIS_Rad.v5.0.0.0.G07295021953.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.RetStd.v4.0.9.0.G07283153055.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.14.L3.RetStd008.v5.0.14.0.G07235184533.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC05S0.A2007288.1210.002.2007295131417.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2006.08.28.A.L1B.Browse_AMSU.v4.0.9.0.G06241184547.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.RetStd_H.v5.0.14.0.G07295101113.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM35S0.A2007306.1135.002.2007308143217.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.16.L3.RetQuant_H005.v5.0.14.0.G07293230751.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.RetStd.v5.0.14.0.G07295084430.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.30.L3.RetStd001.v4.0.9.0.G07252114844.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AIRS_Rad.v5.0.0.0.G07295023345.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC02QS0.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC35S1.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.CC_H.v5.0.14.0.G07295101113.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.CC_H.v4.0.21.0.G07048164621.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.148.L1B.AIRS_QaSub.v4.0.9.0.G07251113434.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.16.L3.RetQuant005.v5.0.14.0.G07234082201.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.CC.v4.0.9.0.G07283153055.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC04S0.A2007288.1240.002.2007295131908.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.RetSup.v4.0.9.0.G07283153055.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.VIS_QaSub.v5.0.0.0.G07295021953.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AMSU_Rad.v5.0.0.0.G07295024144.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM03S0.A2007306.1135.002.2007308143217.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.17.L1B.Cal_Subset.v5.0.16.0.G07292194950.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.149.L1B.VIS_Rad.v4.0.9.0.G07251123126.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.01.A.L1B.Browse_HSB.v4.0.9.0.G06065143355.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC07S0.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.01.L3.RetQuant_H030.v5.0.14.0.G07191213218.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.05.214.L1B.HSB_Rad.v4.0.9.0.G06066181342.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.18.L3.RetStd001.v5.0.14.0.G07293153406.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC04S1.A2007288.1240.002.2007295131908.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.RetSup.v5.0.14.0.G07295084430.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.07.01.L3.RetStd031.v4.0.9.0.G07215163524.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.08.087.L1B.AMSU_Rad.v4.0.9.0.G07251124105.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC02QS1.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC35S0.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.25.L3.RetStd_H008.v5.0.14.0.G07287095455.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.01.L3.RetStd_H030.v5.0.14.0.G07185100430.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.01.01.L3.RetQuant031.v5.0.14.0.G07221170629.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC07S1.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.14.L3.RetStd008.v4.0.9.0.G07235170756.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2006.08.01.D.L1B.Browse_AIRS.v4.0.9.0.G06214143530.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM05S0.A2007306.1135.002.2007308201329.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM06S0.A2007306.1135.002.2007308201419.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/VI.CM1.200709.005.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC06S0.A2007288.1215.002.2007295131428.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.28.L3.RetStd_H001.v4.0.21.0.G06079120158.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC021S0.A2007289.0445.002.2007293055810.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.149.L1B.VIS_QaSub.v4.0.9.0.G07251123126.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.CC.v5.0.14.0.G07295084430.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAM07S0.A2007306.1135.002.2007308143217.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.24.L3.RetStd_H008.v4.0.21.0.G06080111319.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.01.L3.RetStd_H028.v4.0.21.0.G06116143217.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.148.L1B.AIRS_Rad.v4.0.9.0.G07251113434.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.RetSup_H.v5.0.14.0.G07295101113.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AIRS_QaSub.v5.0.0.0.G07295023345.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2005.11.01.L3.RetStd030.v5.0.14.0.G07282152725.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.RetStd_H.v4.0.21.0.G07048164621.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.05.238.L1B.HSB_Rad.v5.0.0.0.G07077073826.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC05S1.A2007288.1210.002.2007295131417.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.03.240.L2.RetStd_H.v4.0.21.0.G06066080724.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC021S0.A2007287.1920.002.2007289002404.hdf.xml
+/projects/HDFMAP/lopez/Data/maps/GESC/MAC03S0.A2007289.0445.002.2007293055810.hdf.xml
+Total files found: 69
+Directory created :MAC03S1.A2007289.0445.002.2007293055811.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC03S1.A2007289.0445.002.2007293055811.hdf.xml
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Tear down ... 
+Directory created :AIRS.2003.01.23.L3.RetStd_H001.v5.0.14.0.G07295092547.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.23.L3.RetStd_H001.v5.0.14.0.G07295092547.hdf.xml
+Tear down ... 
+Directory created :MAM04S0.A2007306.1050.002.2007308201019.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM04S0.A2007306.1050.002.2007308201019.hdf.xml
+Tear down ... 
+Directory created :AIRS.2004.08.12.059.L2.RetSup_H.v4.0.21.0.G07048164621.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.RetSup_H.v4.0.21.0.G07048164621.hdf.xml
+Tear down ... 
+Directory created :MAC06S1.A2007288.1215.002.2007295131428.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC06S1.A2007288.1215.002.2007295131428.hdf.xml
+Tear down ... 
+Directory created :MAC021S1.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC021S1.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.118.L1B.VIS_Rad.v5.0.0.0.G07295021953.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.VIS_Rad.v5.0.0.0.G07295021953.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.178.L2.RetStd.v4.0.9.0.G07283153055.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.RetStd.v4.0.9.0.G07283153055.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.08.14.L3.RetStd008.v5.0.14.0.G07235184533.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.14.L3.RetStd008.v5.0.14.0.G07235184533.hdf.xml
+Tear down ... 
+Directory created :MAC05S0.A2007288.1210.002.2007295131417.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC05S0.A2007288.1210.002.2007295131417.hdf.xml
+Tear down ... 
+Directory created :AIRS.2006.08.28.A.L1B.Browse_AMSU.v4.0.9.0.G06241184547.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2006.08.28.A.L1B.Browse_AMSU.v4.0.9.0.G06241184547.hdf.xml
+Directory created :AIRS.2003.01.24.116.L2.RetStd_H.v5.0.14.0.G07295101113.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.RetStd_H.v5.0.14.0.G07295101113.hdf.xml
+Tear down ... 
+Directory created :MAM35S0.A2007306.1135.002.2007308143217.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM35S0.A2007306.1135.002.2007308143217.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.01.16.L3.RetQuant_H005.v5.0.14.0.G07293230751.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.16.L3.RetQuant_H005.v5.0.14.0.G07293230751.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.069.L2.RetStd.v5.0.14.0.G07295084430.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.RetStd.v5.0.14.0.G07295084430.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.08.30.L3.RetStd001.v4.0.9.0.G07252114844.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.30.L3.RetStd001.v4.0.9.0.G07252114844.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.118.L1B.AIRS_Rad.v5.0.0.0.G07295023345.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AIRS_Rad.v5.0.0.0.G07295023345.hdf.xml
+Tear down ... 
+Directory created :MAC02QS0.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC02QS0.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :MAC35S1.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC35S1.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.01.24.116.L2.CC_H.v5.0.14.0.G07295101113.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.CC_H.v5.0.14.0.G07295101113.hdf.xml
+Tear down ... 
+Directory created :AIRS.2004.08.12.059.L2.CC_H.v4.0.21.0.G07048164621.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.CC_H.v4.0.21.0.G07048164621.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.148.L1B.AIRS_QaSub.v4.0.9.0.G07251113434.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.148.L1B.AIRS_QaSub.v4.0.9.0.G07251113434.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.08.16.L3.RetQuant005.v5.0.14.0.G07234082201.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.16.L3.RetQuant005.v5.0.14.0.G07234082201.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.178.L2.CC.v4.0.9.0.G07283153055.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.CC.v4.0.9.0.G07283153055.hdf.xml
+Tear down ... 
+Directory created :MAC04S0.A2007288.1240.002.2007295131908.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC04S0.A2007288.1240.002.2007295131908.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.178.L2.RetSup.v4.0.9.0.G07283153055.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.178.L2.RetSup.v4.0.9.0.G07283153055.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.118.L1B.VIS_QaSub.v5.0.0.0.G07295021953.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.VIS_QaSub.v5.0.0.0.G07295021953.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.118.L1B.AMSU_Rad.v5.0.0.0.G07295024144.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AMSU_Rad.v5.0.0.0.G07295024144.hdf.xml
+Tear down ... 
+Directory created :MAM03S0.A2007306.1135.002.2007308143217.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM03S0.A2007306.1135.002.2007308143217.hdf.xml
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Tear down ... 
+Directory created :AIRS.2007.10.17.L1B.Cal_Subset.v5.0.16.0.G07292194950.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.17.L1B.Cal_Subset.v5.0.16.0.G07292194950.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.149.L1B.VIS_Rad.v4.0.9.0.G07251123126.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.149.L1B.VIS_Rad.v4.0.9.0.G07251123126.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.01.A.L1B.Browse_HSB.v4.0.9.0.G06065143355.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.01.A.L1B.Browse_HSB.v4.0.9.0.G06065143355.hdf.xml
+Directory created :MAC07S0.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC07S0.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2002.09.01.L3.RetQuant_H030.v5.0.14.0.G07191213218.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.01.L3.RetQuant_H030.v5.0.14.0.G07191213218.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.05.214.L1B.HSB_Rad.v4.0.9.0.G06066181342.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.05.214.L1B.HSB_Rad.v4.0.9.0.G06066181342.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.18.L3.RetStd001.v5.0.14.0.G07293153406.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.18.L3.RetStd001.v5.0.14.0.G07293153406.hdf.xml
+Tear down ... 
+Directory created :MAC04S1.A2007288.1240.002.2007295131908.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC04S1.A2007288.1240.002.2007295131908.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.069.L2.RetSup.v5.0.14.0.G07295084430.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.RetSup.v5.0.14.0.G07295084430.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.07.01.L3.RetStd031.v4.0.9.0.G07215163524.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.07.01.L3.RetStd031.v4.0.9.0.G07215163524.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.08.087.L1B.AMSU_Rad.v4.0.9.0.G07251124105.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.08.087.L1B.AMSU_Rad.v4.0.9.0.G07251124105.hdf.xml
+Tear down ... 
+Directory created :MAC02QS1.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC02QS1.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :MAC35S0.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC35S0.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2002.09.25.L3.RetStd_H008.v5.0.14.0.G07287095455.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.25.L3.RetStd_H008.v5.0.14.0.G07287095455.hdf.xml
+Tear down ... 
+Directory created :AIRS.2002.09.01.L3.RetStd_H030.v5.0.14.0.G07185100430.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2002.09.01.L3.RetStd_H030.v5.0.14.0.G07185100430.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.01.01.L3.RetQuant031.v5.0.14.0.G07221170629.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.01.01.L3.RetQuant031.v5.0.14.0.G07221170629.hdf.xml
+Tear down ... 
+Directory created :MAC07S1.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC07S1.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.08.14.L3.RetStd008.v4.0.9.0.G07235170756.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.08.14.L3.RetStd008.v4.0.9.0.G07235170756.hdf.xml
+Tear down ... 
+Directory created :AIRS.2006.08.01.D.L1B.Browse_AIRS.v4.0.9.0.G06214143530.hdf.xml_dump
+The Map file could not be found or contains not well-formed XML, please verify it /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2006.08.01.D.L1B.Browse_AIRS.v4.0.9.0.G06214143530.hdf.xml
+Directory created :MAM05S0.A2007306.1135.002.2007308201329.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM05S0.A2007306.1135.002.2007308201329.hdf.xml
+Tear down ... 
+Directory created :MAM06S0.A2007306.1135.002.2007308201419.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM06S0.A2007306.1135.002.2007308201419.hdf.xml
+Tear down ... 
+Directory created :VI.CM1.200709.005.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/VI.CM1.200709.005.hdf.xml
+Tear down ... 
+Directory created :MAC06S0.A2007288.1215.002.2007295131428.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC06S0.A2007288.1215.002.2007295131428.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.28.L3.RetStd_H001.v4.0.21.0.G06079120158.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.28.L3.RetStd_H001.v4.0.21.0.G06079120158.hdf.xml
+Tear down ... 
+Directory created :MAC021S0.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC021S0.A2007289.0445.002.2007293055810.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.149.L1B.VIS_QaSub.v4.0.9.0.G07251123126.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.149.L1B.VIS_QaSub.v4.0.9.0.G07251123126.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.069.L2.CC.v5.0.14.0.G07295084430.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.069.L2.CC.v5.0.14.0.G07295084430.hdf.xml
+Tear down ... 
+Directory created :MAM07S0.A2007306.1135.002.2007308143217.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAM07S0.A2007306.1135.002.2007308143217.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.24.L3.RetStd_H008.v4.0.21.0.G06080111319.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.24.L3.RetStd_H008.v4.0.21.0.G06080111319.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.01.L3.RetStd_H028.v4.0.21.0.G06116143217.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.01.L3.RetStd_H028.v4.0.21.0.G06116143217.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.09.07.148.L1B.AIRS_Rad.v4.0.9.0.G07251113434.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.09.07.148.L1B.AIRS_Rad.v4.0.9.0.G07251113434.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.01.24.116.L2.RetSup_H.v5.0.14.0.G07295101113.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.01.24.116.L2.RetSup_H.v5.0.14.0.G07295101113.hdf.xml
+Tear down ... 
+Directory created :AIRS.2007.10.21.118.L1B.AIRS_QaSub.v5.0.0.0.G07295023345.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2007.10.21.118.L1B.AIRS_QaSub.v5.0.0.0.G07295023345.hdf.xml
+Tear down ... 
+Directory created :AIRS.2005.11.01.L3.RetStd030.v5.0.14.0.G07282152725.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2005.11.01.L3.RetStd030.v5.0.14.0.G07282152725.hdf.xml
+Tear down ... 
+Directory created :AIRS.2004.08.12.059.L2.RetStd_H.v4.0.21.0.G07048164621.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2004.08.12.059.L2.RetStd_H.v4.0.21.0.G07048164621.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.05.238.L1B.HSB_Rad.v5.0.0.0.G07077073826.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.05.238.L1B.HSB_Rad.v5.0.0.0.G07077073826.hdf.xml
+Tear down ... 
+Directory created :MAC05S1.A2007288.1210.002.2007295131417.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC05S1.A2007288.1210.002.2007295131417.hdf.xml
+Tear down ... 
+Directory created :AIRS.2003.02.03.240.L2.RetStd_H.v4.0.21.0.G06066080724.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/AIRS.2003.02.03.240.L2.RetStd_H.v4.0.21.0.G06066080724.hdf.xml
+Tear down ... 
+Directory created :MAC021S0.A2007287.1920.002.2007289002404.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC021S0.A2007287.1920.002.2007289002404.hdf.xml
+Tear down ... 
+Directory created :MAC03S0.A2007289.0445.002.2007293055810.hdf.xml_dump
+Parsing : /projects/HDFMAP/lopez/Data/maps/GESC/MAC03S0.A2007289.0445.002.2007293055810.hdf.xml
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Validation caused an error on ID_A33
+Tear down ... 

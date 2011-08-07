@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- This XML file provides access to data stored in a companion HDF4 file 
+		without requiring HDF4 software. The HDF4FileInformation element provides 
+		information about the companion HDF4 file. -->
+	<h4:HDF4FileInformation>
+		<h4:fileName>199901h18ma-gdm.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>4246558</h4:fileSize>
+		<h4:md5Checksum>c0e1ab51cfc0c7869a1af49c28c75d2a</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+
+	<h4:HDF4FileContents>
+
+		<h4:Array name="Sea Surface Temperature" path="/"
+			nDimensions="2" id="ID_A1">
+			<h4:dataDimensionSizes>2048 1024</h4:dataDimensionSizes>
+			<h4:dimensionRef name="Longitude" dimensionIndex="0"
+				ref="ID_D1" />
+			<h4:dimensionRef name="Latitude" dimensionIndex="1"
+				ref="ID_D2" />
+			<h4:datum dataType="int8" />
+			<h4:arrayData fastestVaryingDimensionIndex="1">
+				<h4:fillValues value="-127" />
+			</h4:arrayData>
+			<!-- value(s) for verification Sea Surface Temperature[0,0]=-127 Sea Surface 
+				Temperature[2047,0]=-127 Sea Surface Temperature[0,1023]=-127 Sea Surface 
+				Temperature[2047,1023]=-127 Sea Surface Temperature[1540,802]=-127 Sea Surface 
+				Temperature[1007,209]=-127 Sea Surface Temperature[1717,652]=-127 Sea Surface 
+				Temperature[943,126]=-127 Sea Surface Temperature[1460,779]=-127 -->
+		</h4:Array>
+		<h4:Array name="Number of Observations per Bin" path="/"
+			nDimensions="2" id="ID_A2">
+			<h4:ArrayAttribute name="Band Name" id="ID_AA10">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="4243749" nBytes="31" />
+				</h4:attributeData>
+				<h4:stringValue>Number of Observations per Bin\0</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>2048 1024</h4:dataDimensionSizes>
+			<h4:datum dataType="int8" />
+			<h4:arrayData fastestVaryingDimensionIndex="1">
+				<h4:fillValues value="-127" />
+			</h4:arrayData>
+			<!-- value(s) for verification Number of Observations per Bin[0,0]=-127 
+				Number of Observations per Bin[2047,0]=-127 Number of Observations per Bin[0,1023]=-127 
+				Number of Observations per Bin[2047,1023]=-127 Number of Observations per 
+				Bin[1347,699]=-127 Number of Observations per Bin[1096,168]=-127 Number of 
+				Observations per Bin[167,273]=-127 Number of Observations per Bin[1630,12]=-127 
+				Number of Observations per Bin[1204,901]=-127 -->
+		</h4:Array>
+		<h4:Dimension name="Longitude" id="ID_D1" />
+		<h4:Dimension name="Latitude" id="ID_D2" />
+	</h4:HDF4FileContents>
+</h4:HDF4map>

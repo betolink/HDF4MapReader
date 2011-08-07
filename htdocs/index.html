@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+	curiously.green1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	hope you enjoy it :)
+
+-->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title>HDF4 map reader</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="default.css" />
+</head>
+<body>
+
+<div id="header">
+	<div id="header_inner">
+		<h1><img src="images/hdf.jpg" width=300></h1>
+		<div id="slogan">"Information is the resolution of uncertainty." Claude Shannon</div>
+	</div>
+</div>
+
+<div id="main">
+
+	<div id="lcol">
+		<div id="menu">
+			<ul>
+				<li><a href="index.html">home<span></span></a></li>
+				<li><a href="#">docs<span></span></a></li>
+				<li><a href="download.html">download<span></span></a></li>
+				<li><a href="contact.html">contact<span></span></a></li>
+			</ul>
+		</div>
+		<div id="menu_end"></div>
+
+		<div id="lcontent">
+			<h3 class="first">related.<span>information</span></h3>
+			<ul class="divided">
+				<li class="first"><a href="http://videolectures.net/sms05_bontcheva_mga/">Metadata Generation and Applications</a></li>
+				<li><a href="http://nsidc.org/data/nsidc-0397.html">Long-Term Access to Remote Sensing Data with Layout Maps.</a></li>
+				<li><a href="http://eosweb.larc.nasa.gov/HBDOCS/hdf.html">Hierarchical Data Format</a></li>
+				<li><a href="http://eospso.gsfc.nasa.gov/eos_homepage/description.php">NASA EOS Program</a></li>
+				<li><a href="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0/">HDF map file schemas</a></li>
+				<li><a href="http://www.hdfgroup.org/">The HDF Group</a></li>
+			</ul>
+			
+		</div>
+
+	</div>
+
+	<div id="rcol">
+		<div id="rcontent">
+		
+			<h1>HDF<span>.maps<sup>1.0</sup></span></h1>
+			<span id="slogan2">HDF map reader</span>
+	
+			<div class="box">
+					<div class="captioned_image">
+						<img src="images/climateModeling.jpg" width="80"/>						
+					</div>
+					<h2> Data Preservation</h2>					
+					<p> Scientific data is a highly valuable asset for future generations and its preservation is not a trivial task. Ensuring that this information will be useful and reliable is the main goal for the HDF mapping project. </p> 
+					
+					<p> HDF files are structured, hierarchical data files used by NASA -among others institutions- to store large numeric datasets; Scientist use this data to feed their climate models and to research our environment. There are a variety 
+					of API to access and manipulate this data in its different versions, however from the data preservation stand point, data in different formats but with the same content is equal despite its representation.</p>
+					 
+					<p>In reality, agnostic data is a recurrent issue that brings concerns for long-term data accessibility. Imagine a distant future where most of the languages and frameworks we know are deprecated, HDF API may require an endless list of patches 
+					to be compatible with new operating systems and new wrappers around the new languages. This is a very possible scenario that could cost more than a couple lines of code.</p>
+					
+					<p> The HDF mapping project addresses this conservancy problem by using metadata maps in XML format. These maps are human readable and can be parsed and used by future languages and frameworks. The HDF maps are more than a pointer list document, 
+					they externalize information about HDF datasets at different levels, describe their content and provide information about how to extract and interpret them making this data accessible, platform independent and reliable for future generations</p>
+					
+						
+
+			</div>
+
+			<h3>Get.<span>Started</span></h3>
+			<p>
+				<strong>HDF.mapreader<sup>beta</sup></strong> is an open source, lightweight Python library developed by <a href="http://www.nsidc.org">NSIDC</a> to read HDF map files;  With this library we can extract and manipulate SDS, VData and RIS objects without using the HDF or Net CDF API's.</p>
+
+			<p>
+				We hope you find this tool useful and we encourage the developer comunity to improve and design new libraries around this metadata maps concept. You can find more of information about the project on:
+				<br/> 
+				<a href="http://www.hdfgroup.org/projects/h4map/">The HDF Mapping Project</a>
+			</p>
+
+			<div class="divider"></div>
+			<div class="summary">- Those people at <a href="http://www.hdfgroup.org/projects/h4map/">The HDF mapping project</a></div>
+
+			<h3>Tincidunt.Sed.<span>Vestibulum</span></h3>
+			<p>
+				Quisque suscipit, quam vel aliquet tincidunt, eros nisi ultrices urna, a interdum est purus vitae leo.
+				Pellentesque a lectus et tortor tincidunt <a href="#">dignissim etiam</a>. Aliquam erat volutpat. Quisque
+				risus nunc, eleifend gravida, ullamcorper non, gravida ut, nulla.
+			</p>
+
+		</div>
+	</div>
+
+</div>
+
+<div id="footer">
+	<span>GPLv3.0</span>  2011 The National Snow and Ice Data Center. Last modification: 08/04/2011 <a href="http://nsidc.org/">NSIDC</a>.
+</div>
+
+</body>
+</html>

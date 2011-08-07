@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- This XML file provides access to data stored in a companion HDF4 file 
+		without requiring HDF4 software. The HDF4FileInformation element provides 
+		information about the companion HDF4 file. -->
+	<h4:HDF4FileInformation>
+		<h4:fileName>MCD43B2.A2007257.h35v10.005.2007277185619.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>176728</h4:fileSize>
+		<h4:md5Checksum>a5c7e2c904597756f2d9a8e713a565b1</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+
+	<h4:HDF4FileContents>
+		<h4:FileAttribute name="HDFEOSVersion" origin="File Attribute: Arrays"
+			id="ID_FA1">
+			<h4:datum dataType="char8" />
+			<h4:attributeData>
+				<h4:byteStream offset="113043" nBytes="11" />
+			</h4:attributeData>
+			<h4:stringValue>HDFEOS_V2.9</h4:stringValue>
+		</h4:FileAttribute>
+
+		<h4:Group name="MOD_Grid_BRDF" path="/" class="GRID" id="ID_G1">
+			<h4:Group name="Data Fields" path="/MOD_Grid_BRDF" class="GRID Vgroup"
+				id="ID_G2">
+				<h4:Array name="BRDF_Albedo_Quality" path="/MOD_Grid_BRDF/Data Fields"
+					nDimensions="2" id="ID_A1">
+					<h4:ArrayAttribute name="long_name" id="ID_AA1">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109291" nBytes="19" />
+						</h4:attributeData>
+						<h4:stringValue>BRDF_Albedo_Quality</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="units" id="ID_AA2">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109369" nBytes="18" />
+						</h4:attributeData>
+						<h4:stringValue>concatenated flags</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="valid_range" id="ID_AA3">
+						<h4:datum dataType="uint8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109442" nBytes="2" />
+						</h4:attributeData>
+						<h4:numericValues>0 254</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="_FillValue" id="ID_AA4">
+						<h4:datum dataType="uint8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109505" nBytes="1" />
+						</h4:attributeData>
+						<h4:numericValues>255</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="Description" id="ID_AA5">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109566" nBytes="145" />
+						</h4:attributeData>
+						<h4:stringValue>
+							Mandatory QA 0 = processed, good quality (full BRDF inversions)
+							1 = processed, see other QA (magnitude BRDF inversions)
+</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:dataDimensionSizes>1200 1200</h4:dataDimensionSizes>
+					<h4:dimensionRef name="YDim:MOD_Grid_BRDF"
+						dimensionIndex="0" ref="ID_D1" />
+					<h4:dimensionRef name="XDim:MOD_Grid_BRDF"
+						dimensionIndex="1" ref="ID_D2" />
+					<h4:datum dataType="uint8" />
+					<h4:arrayData fastestVaryingDimensionIndex="1"
+						compressionType="deflate" deflate_level="8">
+						<h4:chunks>
+							<h4:chunkDimensionSizes>100 1200</h4:chunkDimensionSizes>
+							<h4:byteStream offset="35858" nBytes="192"
+								chunkPositionInArray="[0,0]" />
+							<h4:byteStream offset="41697" nBytes="146"
+								chunkPositionInArray="[100,0]" />
+							<h4:byteStream offset="55267" nBytes="206"
+								chunkPositionInArray="[200,0]" />
+							<h4:byteStream offset="57350" nBytes="199"
+								chunkPositionInArray="[300,0]" />
+							<h4:byteStream offset="59269" nBytes="139"
+								chunkPositionInArray="[400,0]" />
+							<h4:byteStream offset="60355" nBytes="139"
+								chunkPositionInArray="[500,0]" />
+							<h4:byteStream offset="61441" nBytes="139"
+								chunkPositionInArray="[600,0]" />
+							<h4:byteStream offset="62527" nBytes="1172"
+								chunkPositionInArray="[700,0]" />
+							<h4:byteStream offset="77261" nBytes="1393"
+								chunkPositionInArray="[800,0]" />
+							<h4:byteStream offset="95869" nBytes="880"
+								chunkPositionInArray="[900,0]" />
+							<h4:byteStream offset="105059" nBytes="251"
+								chunkPositionInArray="[1000,0]" />
+							<h4:byteStream offset="108137" nBytes="139"
+								chunkPositionInArray="[1100,0]" />
+						</h4:chunks>
+					</h4:arrayData>
+					<!-- value(s) for verification BRDF_Albedo_Quality[0,0]=255 BRDF_Albedo_Quality[1199,0]=255 
+						BRDF_Albedo_Quality[0,1199]=255 BRDF_Albedo_Quality[1199,1199]=255 BRDF_Albedo_Quality[810,246]=1 
+						BRDF_Albedo_Quality[887,18]=1 -->
+				</h4:Array>
+				<h4:Array name="Snow_BRDF_Albedo" path="/MOD_Grid_BRDF/Data Fields"
+					nDimensions="2" id="ID_A2">
+					<h4:ArrayAttribute name="long_name" id="ID_AA6">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109900" nBytes="16" />
+						</h4:attributeData>
+						<h4:stringValue>Snow_BRDF_Albedo</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="units" id="ID_AA7">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="109975" nBytes="18" />
+						</h4:attributeData>
+						<h4:stringValue>concatenated flags</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="valid_range" id="ID_AA8">
+						<h4:datum dataType="uint8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110048" nBytes="2" />
+						</h4:attributeData>
+						<h4:numericValues>0 254</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="_FillValue" id="ID_AA9">
+						<h4:datum dataType="uint8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110111" nBytes="1" />
+						</h4:attributeData>
+						<h4:numericValues>255</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="Description 
+" id="ID_AA10">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110172" nBytes="113" />
+						</h4:attributeData>
+						<h4:stringValue>
+							Snow Flags 0 = snow-free albedo retrieved
+							1 = snow albedo retrieved              
+</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:dataDimensionSizes>1200 1200</h4:dataDimensionSizes>
+					<h4:dimensionRef name="YDim:MOD_Grid_BRDF"
+						dimensionIndex="0" ref="ID_D1" />
+					<h4:dimensionRef name="XDim:MOD_Grid_BRDF"
+						dimensionIndex="1" ref="ID_D2" />
+					<h4:datum dataType="uint8" />
+					<h4:arrayData fastestVaryingDimensionIndex="1"
+						compressionType="deflate" deflate_level="8">
+						<h4:chunks>
+							<h4:chunkDimensionSizes>100 1200</h4:chunkDimensionSizes>
+							<h4:byteStream offset="36078" nBytes="183"
+								chunkPositionInArray="[0,0]" />
+							<h4:byteStream offset="46005" nBytes="146"
+								chunkPositionInArray="[100,0]" />
+							<h4:byteStream offset="55489" nBytes="189"
+								chunkPositionInArray="[200,0]" />
+							<h4:byteStream offset="57565" nBytes="173"
+								chunkPositionInArray="[300,0]" />
+							<h4:byteStream offset="59424" nBytes="139"
+								chunkPositionInArray="[400,0]" />
+							<h4:byteStream offset="60510" nBytes="139"
+								chunkPositionInArray="[500,0]" />
+							<h4:byteStream offset="61596" nBytes="139"
+								chunkPositionInArray="[600,0]" />
+							<h4:byteStream offset="63715" nBytes="771"
+								chunkPositionInArray="[700,0]" />
+							<h4:byteStream offset="78670" nBytes="1034"
+								chunkPositionInArray="[800,0]" />
+							<h4:byteStream offset="96765" nBytes="780"
+								chunkPositionInArray="[900,0]" />
+							<h4:byteStream offset="105326" nBytes="237"
+								chunkPositionInArray="[1000,0]" />
+							<h4:byteStream offset="108410" nBytes="139"
+								chunkPositionInArray="[1100,0]" />
+						</h4:chunks>
+					</h4:arrayData>
+					<!-- value(s) for verification Snow_BRDF_Albedo[0,0]=255 Snow_BRDF_Albedo[1199,0]=255 
+						Snow_BRDF_Albedo[0,1199]=255 Snow_BRDF_Albedo[1199,1199]=255 Snow_BRDF_Albedo[419,59]=255 
+						Snow_BRDF_Albedo[408,152]=255 Snow_BRDF_Albedo[1191,481]=255 Snow_BRDF_Albedo[94,844]=255 
+						Snow_BRDF_Albedo[644,357]=255 -->
+				</h4:Array>
+				<h4:Array name="BRDF_Albedo_Ancillary" path="/MOD_Grid_BRDF/Data Fields"
+					nDimensions="2" id="ID_A3">
+					<h4:ArrayAttribute name="long_name" id="ID_AA11">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110471" nBytes="21" />
+						</h4:attributeData>
+						<h4:stringValue>BRDF_Albedo_Ancillary</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="units" id="ID_AA12">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110551" nBytes="18" />
+						</h4:attributeData>
+						<h4:stringValue>concatenated flags</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="valid_range" id="ID_AA13">
+						<h4:datum dataType="uint16" byteOrder="bigEndian" />
+						<h4:attributeData>
+							<h4:byteStream offset="110624" nBytes="4" />
+						</h4:attributeData>
+						<h4:numericValues>0 32766</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="_FillValue" id="ID_AA14">
+						<h4:datum dataType="uint16" byteOrder="bigEndian" />
+						<h4:attributeData>
+							<h4:byteStream offset="110689" nBytes="2" />
+						</h4:attributeData>
+						<h4:numericValues>32767</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="Description 
+" id="ID_AA15">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="110751" nBytes="729" />
+						</h4:attributeData>
+						<h4:stringValue>
+							00-03 Platform 0 = Terra
+							1 = Terra/Aqua
+							2 = Aqua
+							04-07 Land/Water 0 = Shallow ocean
+							1 = Land (Nothing else but land)
+							2 = Ocean and lake shorelines
+							3 = Shallow inland water
+							4 = Ephemeral water
+							5 = Deep inland water
+							6 = Moderate or continental ocean
+							7 = Deep ocean
+							08-14 Solar Zenith Angle at Local Solar Noon
+							15 QAfill                                          
+</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:dataDimensionSizes>1200 1200</h4:dataDimensionSizes>
+					<h4:dimensionRef name="YDim:MOD_Grid_BRDF"
+						dimensionIndex="0" ref="ID_D1" />
+					<h4:dimensionRef name="XDim:MOD_Grid_BRDF"
+						dimensionIndex="1" ref="ID_D2" />
+					<h4:datum dataType="uint16" byteOrder="bigEndian" />
+					<h4:arrayData fastestVaryingDimensionIndex="1"
+						compressionType="deflate" deflate_level="8">
+						<h4:chunks>
+							<h4:chunkDimensionSizes>100 1200</h4:chunkDimensionSizes>
+							<h4:byteStream offset="36289" nBytes="327"
+								chunkPositionInArray="[0,0]" />
+							<h4:byteStream offset="50313" nBytes="265"
+								chunkPositionInArray="[100,0]" />
+							<h4:byteStream offset="55694" nBytes="356"
+								chunkPositionInArray="[200,0]" />
+							<h4:byteStream offset="57754" nBytes="334"
+								chunkPositionInArray="[300,0]" />
+							<h4:byteStream offset="59579" nBytes="256"
+								chunkPositionInArray="[400,0]" />
+							<h4:byteStream offset="60665" nBytes="256"
+								chunkPositionInArray="[500,0]" />
+							<h4:byteStream offset="61751" nBytes="256"
+								chunkPositionInArray="[600,0]" />
+							<h4:byteStream offset="64502" nBytes="1772"
+								chunkPositionInArray="[700,0]" />
+							<h4:byteStream offset="79720" nBytes="2337"
+								chunkPositionInArray="[800,0]" />
+							<h4:byteStream offset="97561" nBytes="1444"
+								chunkPositionInArray="[900,0]" />
+							<h4:byteStream offset="105579" nBytes="468"
+								chunkPositionInArray="[1000,0]" />
+							<h4:byteStream offset="108683" nBytes="256"
+								chunkPositionInArray="[1100,0]" />
+						</h4:chunks>
+					</h4:arrayData>
+					<!-- value(s) for verification BRDF_Albedo_Ancillary[0,0]=32767 BRDF_Albedo_Ancillary[1199,0]=32767 
+						BRDF_Albedo_Ancillary[0,1199]=32767 BRDF_Albedo_Ancillary[1199,1199]=32767 
+						BRDF_Albedo_Ancillary[799,168]=4625 BRDF_Albedo_Ancillary[909,50]=4865 -->
+				</h4:Array>
+				<h4:Array name="BRDF_Albedo_Band_Quality" path="/MOD_Grid_BRDF/Data Fields"
+					nDimensions="2" id="ID_A4">
+					<h4:ArrayAttribute name="long_name" id="ID_AA16">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="111671" nBytes="24" />
+						</h4:attributeData>
+						<h4:stringValue>BRDF_Albedo_Band_Quality</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="units" id="ID_AA17">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="111754" nBytes="18" />
+						</h4:attributeData>
+						<h4:stringValue>concatenated flags</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="valid_range" id="ID_AA18">
+						<h4:datum dataType="uint32" byteOrder="bigEndian" />
+						<h4:attributeData>
+							<h4:byteStream offset="111827" nBytes="8" />
+						</h4:attributeData>
+						<h4:numericValues>0 -2</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="_FillValue" id="ID_AA19">
+						<h4:datum dataType="uint32" byteOrder="bigEndian" />
+						<h4:attributeData>
+							<h4:byteStream offset="111896" nBytes="4" />
+						</h4:attributeData>
+						<h4:numericValues>-1</h4:numericValues>
+					</h4:ArrayAttribute>
+					<h4:ArrayAttribute name="Description 
+" id="ID_AA20">
+						<h4:datum dataType="char8" />
+						<h4:attributeData>
+							<h4:byteStream offset="111960" nBytes="889" />
+						</h4:attributeData>
+						<h4:stringValue>
+							00-03 Band 1 Quality
+							0 = best quality, 75% or more with best full inversions
+							1 = good quality, 75% or more with full inversions
+							2 = mixed, 50% or less full inversions and 25% or less fill values
+							3 = all magnitude inversions or 50% or less fill values
+							4 = 75% or more fill values
+							04-07 Band 2 Quality (see explanation for band 1)
+							08-11 Band 3 Quality (see explanation for band 1)
+							12-15 Band 4 Quality (see explanation for band 1)
+							16-19 Band 5 Quality (see explanation for band 1)
+							20-23 Band 6 Quality (see explanation for band 1)
+							24-27 Band 7 Quality (see explanation for band 1)                       
+</h4:stringValue>
+					</h4:ArrayAttribute>
+					<h4:dataDimensionSizes>1200 1200</h4:dataDimensionSizes>
+					<h4:dimensionRef name="YDim:MOD_Grid_BRDF"
+						dimensionIndex="0" ref="ID_D1" />
+					<h4:dimensionRef name="XDim:MOD_Grid_BRDF"
+						dimensionIndex="1" ref="ID_D2" />
+					<h4:datum dataType="uint32" byteOrder="bigEndian" />
+					<h4:arrayData fastestVaryingDimensionIndex="1"
+						compressionType="deflate" deflate_level="8">
+						<h4:chunks>
+							<h4:chunkDimensionSizes>100 1200</h4:chunkDimensionSizes>
+							<h4:byteStream offset="36644" nBytes="891"
+								chunkPositionInArray="[0,0]" />
+							<h4:byteStream offset="54740" nBytes="511"
+								chunkPositionInArray="[100,0]" />
+							<h4:byteStream offset="56066" nBytes="1268"
+								chunkPositionInArray="[200,0]" />
+							<h4:byteStream offset="58104" nBytes="1149"
+								chunkPositionInArray="[300,0]" />
+							<h4:byteStream offset="59851" nBytes="488"
+								chunkPositionInArray="[400,0]" />
+							<h4:byteStream offset="60937" nBytes="488"
+								chunkPositionInArray="[500,0]" />
+							<h4:byteStream offset="62023" nBytes="488"
+								chunkPositionInArray="[600,0]" />
+							<h4:byteStream offset="66290" nBytes="10955"
+								chunkPositionInArray="[700,0]" />
+							<h4:byteStream offset="82073" nBytes="13780"
+								chunkPositionInArray="[800,0]" />
+							<h4:byteStream offset="99021" nBytes="6022"
+								chunkPositionInArray="[900,0]" />
+							<h4:byteStream offset="106063" nBytes="1436"
+								chunkPositionInArray="[1000,0]" />
+							<h4:byteStream offset="107515" nBytes="488"
+								chunkPositionInArray="[1100,0]" />
+						</h4:chunks>
+					</h4:arrayData>
+					<!-- value(s) for verification BRDF_Albedo_Band_Quality[0,0]=-1 BRDF_Albedo_Band_Quality[1199,0]=-1 
+						BRDF_Albedo_Band_Quality[0,1199]=-1 BRDF_Albedo_Band_Quality[1199,1199]=-1 
+						BRDF_Albedo_Band_Quality[973,51]=53687091 BRDF_Albedo_Band_Quality[828,94]=52634163 -->
+				</h4:Array>
+			</h4:Group>
+			<h4:Group name="Grid Attributes" path="/MOD_Grid_BRDF"
+				class="GRID Vgroup" id="ID_G3">
+			</h4:Group>
+		</h4:Group>
+		<h4:Dimension name="YDim:MOD_Grid_BRDF" id="ID_D1" />
+		<h4:Dimension name="XDim:MOD_Grid_BRDF" id="ID_D2" />
+	</h4:HDF4FileContents>
+</h4:HDF4map>

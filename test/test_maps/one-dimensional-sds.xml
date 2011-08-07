@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- This XML file provides access to data stored in a companion HDF4 file 
+		without requiring HDF4 software. The HDF4FileInformation element provides 
+		information about the companion HDF4 file. -->
+	<h4:HDF4FileInformation>
+		<h4:fileName>f15_clwa_06001_01A.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>232695</h4:fileSize>
+		<h4:md5Checksum>9ff44b279d3421829e0481fd0010f261</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+
+	<h4:HDF4FileContents>
+
+		<h4:Array name="Data-Set-2" path="/" nDimensions="2" id="ID_A1">
+			<h4:ArrayAttribute name="valid_max" id="ID_AA1">
+				<h4:datum dataType="int16" byteOrder="bigEndian" />
+				<h4:attributeData>
+					<h4:byteStream offset="1973" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>1</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="valid_min" id="ID_AA2">
+				<h4:datum dataType="int16" byteOrder="bigEndian" />
+				<h4:attributeData>
+					<h4:byteStream offset="1977" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>1</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="long_name" id="ID_AA3">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="1932" nBytes="24" />
+				</h4:attributeData>
+				<h4:stringValue>F15_Julian Day_06001_01A</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="units" id="ID_AA4">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="1959" nBytes="3" />
+				</h4:attributeData>
+				<h4:stringValue>Day</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="format" id="ID_AA5">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="1965" nBytes="5" />
+				</h4:attributeData>
+				<h4:stringValue>Int*2</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>806 1</h4:dataDimensionSizes>
+			<h4:datum dataType="int16" byteOrder="bigEndian" />
+			<h4:arrayData fastestVaryingDimensionIndex="1">
+				<h4:byteStream offset="294" nBytes="1612" />
+			</h4:arrayData>
+			<!-- value(s) for verification Data-Set-2[0,0]=1 Data-Set-2[805,0]=1 Data-Set-2[390,0]=1 
+				Data-Set-2[640,0]=1 Data-Set-2[163,0]=1 Data-Set-2[308,0]=1 Data-Set-2[414,0]=1 -->
+		</h4:Array>
+		<h4:Array name="Data-Set-3" path="/" nDimensions="2" id="ID_A2">
+			<h4:ArrayAttribute name="valid_max" id="ID_AA6">
+				<h4:datum dataType="float32" byteOrder="bigEndian"
+					floatingPointFormat="IEEE" />
+				<h4:attributeData>
+					<h4:byteStream offset="5298" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>4452.772461</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="valid_min" id="ID_AA7">
+				<h4:datum dataType="float32" byteOrder="bigEndian"
+					floatingPointFormat="IEEE" />
+				<h4:attributeData>
+					<h4:byteStream offset="5302" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>1393.442017</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="long_name" id="ID_AA8">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="5251" nBytes="25" />
+				</h4:attributeData>
+				<h4:stringValue>F15_Time of Day_06001_01A</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="units" id="ID_AA9">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="5279" nBytes="7" />
+				</h4:attributeData>
+				<h4:stringValue>Seconds</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="format" id="ID_AA10">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="5289" nBytes="6" />
+				</h4:attributeData>
+				<h4:stringValue>Real*4</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>806 1</h4:dataDimensionSizes>
+			<h4:datum dataType="float32" byteOrder="bigEndian"
+				floatingPointFormat="IEEE" />
+			<h4:arrayData fastestVaryingDimensionIndex="1">
+				<h4:byteStream offset="2001" nBytes="3224" />
+			</h4:arrayData>
+			<!-- value(s) for verification Data-Set-3[0,0]=1393.442017 Data-Set-3[805,0]=4450.873535 
+				Data-Set-3[442,0]=3072.181152 Data-Set-3[616,0]=3733.042236 Data-Set-3[412,0]=2958.239502 
+				Data-Set-3[6,0]=1416.230469 Data-Set-3[364,0]=2775.932617 -->
+		</h4:Array>
+
+		<h4:Array name="Data-Set-8" path="/" nDimensions="2" id="ID_A7">
+			<h4:ArrayAttribute name="valid_max" id="ID_AA31">
+				<h4:datum dataType="int32" byteOrder="bigEndian" />
+				<h4:attributeData>
+					<h4:byteStream offset="231611" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>-99</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="valid_min" id="ID_AA32">
+				<h4:datum dataType="int32" byteOrder="bigEndian" />
+				<h4:attributeData>
+					<h4:byteStream offset="231615" nBytes="4" />
+				</h4:attributeData>
+				<h4:numericValues>-99</h4:numericValues>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="long_name" id="ID_AA33">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="231563" nBytes="28" />
+				</h4:attributeData>
+				<h4:stringValue>F15_clwa Meta data_06001_01A</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="units" id="ID_AA34">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="231594" nBytes="6" />
+				</h4:attributeData>
+				<h4:stringValue>Varied</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:ArrayAttribute name="format" id="ID_AA35">
+				<h4:datum dataType="char8" />
+				<h4:attributeData>
+					<h4:byteStream offset="231603" nBytes="5" />
+				</h4:attributeData>
+				<h4:stringValue>Int*4</h4:stringValue>
+			</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>512 1</h4:dataDimensionSizes>
+			<h4:datum dataType="int32" byteOrder="bigEndian" />
+			<h4:arrayData fastestVaryingDimensionIndex="1">
+				<h4:byteStream offset="229493" nBytes="2048" />
+			</h4:arrayData>
+			<!-- value(s) for verification Data-Set-8[0,0]=1397968201 Data-Set-8[511,0]=0 
+				Data-Set-8[80,0]=0 Data-Set-8[165,0]=0 Data-Set-8[269,0]=0 Data-Set-8[236,0]=0 
+				Data-Set-8[412,0]=0 -->
+		</h4:Array>
+		<h4:Dimension name="" id="ID_D1">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D2">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D3">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D4">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D5">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D6">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D7">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D8">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D9">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D10">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D11">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D12">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D13">
+		</h4:Dimension>
+		<h4:Dimension name="" id="ID_D14">
+		</h4:Dimension>
+	</h4:HDF4FileContents>
+</h4:HDF4map>

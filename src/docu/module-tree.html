@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>hdf4MapReader</title>
+<link rel="stylesheet" href="epydoc.css" type="text/css" />
+<script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+	alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+	bgcolor="#a0c0ff" cellspacing="0">
+	<tr valign="middle">
+
+		<!-- Tree link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Index link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Help link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Project homepage -->
+		<th class="navbar" align="right" width="100%">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<th class="navbar" align="center"><a
+					class="navbar" target="_top"
+					href="http://sourceforge.net/projects/hdf4mapreader/">HDF Map
+				Reader</a></th>
+			</tr>
+		</table>
+		</th>
+	</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+	<tr valign="top">
+		<td width="100%"><span class="breadcrumbs">
+		Module&nbsp;hdf4MapReader </span></td>
+		<td>
+		<table cellpadding="0" cellspacing="0">
+			<!-- hide/show private -->
+			<tr>
+				<td align="right"><span class="options">[<a
+					href="javascript:void(0);" class="privatelink"
+					onclick="toggle_private();">hide&nbsp;private</a>]</span></td>
+			</tr>
+			<tr>
+				<td align="right"><span class="options">[<a
+					href="frames.html" target="_top">frames</a>]&nbsp;|&nbsp;<a
+					href="hdf4MapReader-module.html" target="_top">no&nbsp;frames</a>]</span></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module hdf4MapReader</h1>
+<p class="nomargin-top"><span class="codelink"><a
+	href="hdf4MapReader-pysrc.html">source&nbsp;code</a></span></p>
+<pre class="literalblock">
+*****************************************************************************************************************
+*					HDF MAP READER								
+*														
+*	Version: 1.0											
+*	Date: 21/JUL/2011										
+*	Platform: OS independent									
+*	Language: Python											
+*	Interpreter: Python 2.5 or above, Jython 2.2 or above
+* 	License: GPL v3		
+*														
+*	Proyect home: http://hdf4mapreader.sourceforge.net/							
+*	SVN : svn co https://hdf4mapreader.svn.sourceforge.net/svnroot/hdf4mapreader hdf4mapreader					
+*														
+*	Comments/questions: lopez@kryos.colorado.org								
+*														
+*****************************************************************************************************************
+
+The main goal of the HDF-map project is data preservation to ensure that scientific data stored in HDF4 files 
+will be accessible in the future without relaying on a specific API or platform. This is being addressed using
+XML map-files to represent relevant information of an HDF4 file and its content in a structured way.
+
+More information about the project can be found in: 
+
+http://www.hdfgroup.org/projects/h4map/ 
+
+
+About the hdf4MapReader tool:
+
+'hdf4MapReader' is a multi-platform command line tool written in Python that aims to be a starting point for new 
+HDF-map related software. Its main function is to extract information from HDF files without using the HDF APIs. 
+Since this tool was developed when the writer was on a pre-alpha stage it does not use the xsd schema and some 
+tags are hard coded. 
+
+'hdf4MapReader' gets metadata about an HDF file by parsing its related HDF-map file, then extracts the supported 
+datasets into CSV or binary files that can be imported in almost any database or data process. The tool has been 
+implemented with Python 2.5 and uses just standard libraries, therefore there is no need to install any external 
+component.
+
+*****************************************************************************************************************
+
+
+Dependencies:
+
+lxml: http://lxml.de/
+numpy: http://new.scipy.org/download.html
+
+Usage: 
+        for a single file:
+            ./hdf4MapReader -f [filename] -l|-e [HDF_object] [-b] [-r]        
+        
+        for all the maps that match the pattern in a given directory
+            ./hdf4MapReader -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-b] [-r] [-v]
+
+        [filename]: a Valid XML map file
+
+        -e: extract the object(s)
+
+        -l: list the object(s)
+        
+        -b: raw binary data, endianess is preserved, if this parameter is not present the data will be dumped in 
+            ASCII format into a CSV file
+            
+        -r: just data for SDS arrays, while present it dumps the SDS without headers( dimensional and data info) 
+        
+        -v: print detailed output
+
+        [HDF_object]: VData, SDS, RIS, ALL
+
+
+HDF Objects supported in current version: Groups, VData, SDS, RIS (8bit)
+
+
+*****************************************************************************************************************
+21/JUL/2011
+
+
+
+ToDo:
+
+1. Unit testing
+2. Schema usage and validation.
+3. SDS ploted to PNG graphics.
+
+*****************************************************************************************************************
+Running the code:
+
+Python:
+
+If we are using just Python we need to run the scripts from the project source directory(Jython/src).
+
+Our command line will look like:
+	
+	Linux:	$ ./hdf4MapReader -f  hdf/Tables.MAP.xml -l ALL
+
+	Win:    > hdf4MapReader.exe -f 'hdf\Tables.MAP.xml' -l ALL
+
+
+Eclipse:
+
+To load and debug the proyect in the Eclipse IDE we need to install the PyDev plugin from http://pydev.org/
+We can configure PyDev to use either Jython or Python.
+
+After this we can play with the command line arguments and run a test. 
+
+To edit the run arguments in Eclipse:
+
+	Run->Run configurations->Arguments
+
+i.e.
+
+	-f hdf/Tables.MAP.xml -e ALL
+    -f hdf/AMSR_E_L2_Land_V09_200501180027_D.MAP.xml -e ALL
+
+For some Eclipse configurations the project path is not the same as the default run path.
+In these cases we need to set the environment variable ${workspace_loc} to our project path, 
+
+i.e. ${workspace_loc:HDF map reader} for WorkingDirectory on Run Configuration.
+
+
+
+</pre>
+
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3" cellspacing="0"
+	width="100%" bgcolor="white">
+	<tr bgcolor="#70b0f0" class="table-header">
+		<td colspan="2" class="table-header">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr valign="top">
+				<td align="left"><span class="table-header">Functions</span></td>
+				<td align="right" valign="top"><span class="options">[<a
+					href="#section-Functions" class="privatelink"
+					onclick="toggle_private();">hide private</a>]</span></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="15%" align="right" valign="top" class="summary"><span
+			class="summary-type">&nbsp;</span></td>
+		<td class="summary">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td><span class="summary-sig"><a
+					href="hdf4MapReader-module.html#usage" class="summary-sig-name">usage</a>(<span
+					class="summary-sig-arg">args</span>)</span><br />
+				Print the usage of the command line, the paths are relative to the
+				script location.</td>
+				<td align="right" valign="top"><span class="codelink"><a
+					href="hdf4MapReader-pysrc.html#usage">source&nbsp;code</a></span></td>
+			</tr>
+		</table>
+
+		</td>
+	</tr>
+	<tr>
+		<td width="15%" align="right" valign="top" class="summary"><span
+			class="summary-type">&nbsp;</span></td>
+		<td class="summary">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td><span class="summary-sig"><a
+					href="hdf4MapReader-module.html#main" class="summary-sig-name">main</a>()</span><br />
+				This function validate the command line arguments and creates a sub
+				directory in the same path as the XML file and with the same name.</td>
+				<td align="right" valign="top"><span class="codelink"><a
+					href="hdf4MapReader-pysrc.html#main">source&nbsp;code</a></span></td>
+			</tr>
+		</table>
+
+		</td>
+	</tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3" cellspacing="0"
+	width="100%" bgcolor="white">
+	<tr bgcolor="#70b0f0" class="table-header">
+		<td colspan="2" class="table-header">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr valign="top">
+				<td align="left"><span class="table-header">Variables</span></td>
+				<td align="right" valign="top"><span class="options">[<a
+					href="#section-Variables" class="privatelink"
+					onclick="toggle_private();">hide private</a>]</span></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="15%" align="right" valign="top" class="summary"><span
+			class="summary-type">&nbsp;</span></td>
+		<td class="summary"><a name="__package__"></a><span
+			class="summary-name">__package__</span> = <code title="None">None</code>
+		</td>
+	</tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3" cellspacing="0"
+	width="100%" bgcolor="white">
+	<tr bgcolor="#70b0f0" class="table-header">
+		<td colspan="2" class="table-header">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr valign="top">
+				<td align="left"><span class="table-header">Function
+				Details</span></td>
+				<td align="right" valign="top"><span class="options">[<a
+					href="#section-FunctionDetails" class="privatelink"
+					onclick="toggle_private();">hide private</a>]</span></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<a name="usage"></a>
+<div>
+<table class="details" border="1" cellpadding="3" cellspacing="0"
+	width="100%" bgcolor="white">
+	<tr>
+		<td>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td>
+				<h3 class="epydoc"><span class="sig"><span
+					class="sig-name">usage</span>(<span class="sig-arg">args</span>)</span></h3>
+				</td>
+				<td align="right" valign="top"><span class="codelink"><a
+					href="hdf4MapReader-pysrc.html#usage">source&nbsp;code</a></span>&nbsp;</td>
+			</tr>
+		</table>
+
+		<p>Print the usage of the command line, the paths are relative to
+		the script location.</p>
+		<p>./hdf4MapReader -f [filename] -l|-e [HDF_object] [-b]</p>
+		<p>[filename]: a Valid XML map file -e: extract the object(s) -l:
+		list the object(s) [HDF_object]: VData, SDS, RIS, ALL -b: dumps the
+		object(s) in binary .dat files.</p>
+		<dl class="fields">
+		</dl>
+		</td>
+	</tr>
+</table>
+</div>
+<a name="main"></a>
+<div>
+<table class="details" border="1" cellpadding="3" cellspacing="0"
+	width="100%" bgcolor="white">
+	<tr>
+		<td>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr valign="top">
+				<td>
+				<h3 class="epydoc"><span class="sig"><span
+					class="sig-name">main</span>()</span></h3>
+				</td>
+				<td align="right" valign="top"><span class="codelink"><a
+					href="hdf4MapReader-pysrc.html#main">source&nbsp;code</a></span>&nbsp;</td>
+			</tr>
+		</table>
+
+		<p>This function validate the command line arguments and creates a
+		sub directory in the same path as the XML file and with the same name.
+		This directory will be used to store the output files.</p>
+		<p>If the parameters are correct and the reader has the necessary
+		permissions to create the output directory, an instance of 'XMLparser'
+		will be created.</p>
+		<dl class="fields">
+		</dl>
+		</td>
+	</tr>
+</table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+	bgcolor="#a0c0ff" cellspacing="0">
+	<tr valign="middle">
+
+		<!-- Tree link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Index link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Help link -->
+		<th>&nbsp;&nbsp;&nbsp;<a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+		<!-- Project homepage -->
+		<th class="navbar" align="right" width="100%">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<th class="navbar" align="center"><a
+					class="navbar" target="_top"
+					href="http://sourceforge.net/projects/hdf4mapreader/">HDF Map
+				Reader</a></th>
+			</tr>
+		</table>
+		</th>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+	<tr>
+		<td align="left" class="footer">Generated by Epydoc 3.0.1 on Sun
+		Jun 12 15:33:59 2011</td>
+		<td align="right" class="footer"><a target="mainFrame"
+			href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
+		</td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<h4:HDF4FileInformation>
+		<h4:fileName>199901h18ma-gdm.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+
+		</h4:attributeData>
+			<h4:stringValue>Number of Observations per Bin\0</h4:stringValue>
+		</h4:ArrayAttribute>
+			<h4:dataDimensionSizes>2048 1024</h4:dataDimensionSizes>
+			<h4:datum dataType="int8" />
+
+			<h4:Dimension name="Latitude" id="ID_D2" />
+		</h4:HDF4FileContents>
+</h4:HDF4map>

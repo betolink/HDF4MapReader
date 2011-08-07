@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<h4:HDF4map version="1.0.0"
+	xsi:schemaLocation="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0 HDF4map.xsd"
+	xmlns:h4="http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- This XML file provides access to data stored in a companion HDF4 file 
+		without requiring HDF4 software. The HDF4FileInformation element provides 
+		information about the companion HDF4 file. -->
+	<h4:HDF4FileInformation>
+		<h4:fileName>g3a.t.00107820v03.00.hdf</h4:fileName>
+		<h4:fileLocation>
+			<h4:fileLocationType>filepath</h4:fileLocationType>
+			<h4:fileLocationValue>../test/test_hdf</h4:fileLocationValue>
+		</h4:fileLocation>
+		<h4:fileSize>237318</h4:fileSize>
+		<h4:md5Checksum>d86a5b77bf02d4f012432a967a0fd00f</h4:md5Checksum>
+	</h4:HDF4FileInformation>
+
+	<h4:HDF4FileContents>
+		<h4:Group name="Section 1.0 - File Header" path="/" class="SAGE III"
+			id="ID_G1">
+			<h4:Table name="Section 1.0 - File Header" path="/Section 1.0 - File Header"
+				class="SAGE III" nRows="1" nColumns="6" id="ID_T1">
+				<h4:Column name="Event Identification Tag" nEntries="1"
+					id="ID_C1">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Year-Day Tag(YYYYDDD)" nEntries="1" id="ID_C2">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Instr ETOS (dddd.frac)" nEntries="1" id="ID_C3">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Int Fill/Invalid" nEntries="1" id="ID_C4">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Real Fill/Invalid" nEntries="1" id="ID_C5">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Mission Id (1 2 or 3)" nEntries="1" id="ID_C6">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:tableData>
+					<h4:byteStream offset="294" nBytes="24" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Section 1.0 - File Header[0]=107820,2002058,78.759193,2147483647,340282346638528859811704183484516925440.000000,1 -->
+			</h4:Table>
+		</h4:Group>
+		<h4:Group name="Section 2.0 - Product Identification" path="/"
+			class="Product Identification" id="ID_G2">
+			<h4:Table name="Section 2.0 - Product Identification" path="/Section 2.0 - Product Identification"
+				class="Product Identification" nRows="1" nColumns="7" id="ID_T2">
+				<h4:Column name="Definitive Orbit Version" nEntries="1"
+					id="ID_C7">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Level 0 Version" nEntries="1" id="ID_C8">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Database Version" nEntries="1" id="ID_C9">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="GRAM 95 Version" nEntries="1" id="ID_C10">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Meteorological Version" nEntries="1" id="ID_C11">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Software Processing Version" nEntries="1"
+					id="ID_C12">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Data Product Version" nEntries="1" id="ID_C13">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:tableData>
+					<h4:byteStream offset="559" nBytes="28" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Section 2.0 - Product Identification[0]=2.020000,2.000000,340282346638528859811704183484516925440.000000,0.000000,1.000000,3.040000,3.000000 -->
+			</h4:Table>
+		</h4:Group>
+		<h4:Group name="Section 3.0 - File Description" path="/" id="ID_G3">
+			<h4:Table name="Section 3.0 - File Description" path="/Section 3.0 - File Description"
+				nRows="1" nColumns="6" id="ID_T3">
+				<h4:Column name="Transmission Profile Grid Spacing"
+					nEntries="1" id="ID_C14">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Transmission Profile Count" nEntries="1"
+					id="ID_C15">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Number of Ground Track Values" nEntries="1"
+					id="ID_C16">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Meteorological Profile Array Size"
+					nEntries="1" id="ID_C17">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="CCD Pixel Group Count" nEntries="1" id="ID_C18">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Altitude-based Array Size" nEntries="1"
+					id="ID_C19">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:tableData>
+					<h4:byteStream offset="881" nBytes="24" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Section 3.0 - File Description[0]=0.500000,88,11,18,86,200 -->
+			</h4:Table>
+		</h4:Group>
+		<h4:Group name="Section 4.0 - Event Identification" path="/"
+			class="Event Identification" id="ID_G4">
+			<h4:Table name="Event Identification" path="/Section 4.0 - Event Identification"
+				class="Event Identification" nRows="1" nColumns="4" id="ID_T4">
+				<h4:Column name="Spacecraft-referenced Event Type (1=sunrise 2=sunset)"
+					nEntries="1" id="ID_C20">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Earth-referenced Event Type (1=sunrise 2=sunset)"
+					nEntries="1" id="ID_C21">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Event Beta Angle (0.0 +/- 61.0 deg."
+					nEntries="1" id="ID_C22">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Event Status Bit Flag" nEntries="1" id="ID_C23">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:tableData>
+					<h4:byteStream offset="1189" nBytes="16" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Event Identification[0]=2,2,-43.708729,0 -->
+			</h4:Table>
+			<h4:Group name="Section 4.1 - Science Data Start Information"
+				path="/Section 4.0 - Event Identification" id="ID_G5">
+				<h4:Table name="Section 4.1 - Science Data Start Information"
+					path="/Section 4.0 - Event Identification/Section 4.1 - Science Data Start Information"
+					class="Event Identification" nRows="1" nColumns="5" id="ID_T5">
+					<h4:Column name="Data Capture Start Date (YYYYMMDD)"
+						nEntries="1" id="ID_C24">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Data Capture Start Time (HHMMSS)"
+						nEntries="1" id="ID_C25">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Data Capture Start Subtang. Lat. (0.0 +/- 90.0 deg)"
+						nEntries="1" id="ID_C26">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Data Capture Start Subtang. Long. (0.0 +/- 180.0 deg)"
+						nEntries="1" id="ID_C27">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Data Capture Start Subtang. Alt. (km)"
+						nEntries="1" id="ID_C28">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:tableData>
+						<h4:byteStream offset="1205" nBytes="20" />
+					</h4:tableData>
+					<!-- row(s) for verification; csv format Section 4.1 - Science Data 
+						Start Information[0]=20020227,113211,81.129288,30.721651,390.363739 -->
+				</h4:Table>
+			</h4:Group>
+			<h4:Group name="Section 4.2 - Science Data End Information"
+				path="/Section 4.0 - Event Identification" id="ID_G6">
+				<h4:Table name="Section 4.2 - Science Data End Information"
+					path="/Section 4.0 - Event Identification/Section 4.2 - Science Data End Information"
+					class="Event Identification" nRows="1" nColumns="5" id="ID_T6">
+					<h4:Column name="Data Capture End Date (YYYYMMDD)"
+						nEntries="1" id="ID_C29">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Data Capture End Time (HHMMSS)"
+						nEntries="1" id="ID_C30">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Data Capture End Subtang. Lat. (0.0 +/- 90.0 deg)"
+						nEntries="1" id="ID_C31">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Data Capture End Subtang. Long. (0.0 +/- 180.0 deg)"
+						nEntries="1" id="ID_C32">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Data Capture End Subtang. Alt. (km)"
+						nEntries="1" id="ID_C33">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:tableData>
+						<h4:byteStream offset="1225" nBytes="20" />
+					</h4:tableData>
+					<!-- row(s) for verification; csv format Section 4.2 - Science Data 
+						End Information[0]=20020227,113541,74.060402,68.500366,-51.373787 -->
+				</h4:Table>
+			</h4:Group>
+			<h4:Group name="Section 4.3 - Ground Track Data Over This Event"
+				path="/Section 4.0 - Event Identification" id="ID_G7">
+				<h4:Table name="Section 4.3 - Ground Track Data Over This Event"
+					path="/Section 4.0 - Event Identification/Section 4.3 - Ground Track Data Over This Event"
+					class="Event Identification" nRows="11" nColumns="5" id="ID_T7">
+					<h4:Column name="Date (YYYYMMDD)" nEntries="1" id="ID_C34">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Time (HHMMSS)" nEntries="1" id="ID_C35">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:Column name="Subtangent Latitude (0.0 +/- 90.0 deg)"
+						nEntries="1" id="ID_C36">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Subtangent Longitude (0.0 +/- 180.0 deg)"
+						nEntries="1" id="ID_C37">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Ray Path Direction @ Subtan. Pt. (0.0 - 359.99"
+						nEntries="1" id="ID_C38">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:tableData storageOrder="by row">
+						<h4:byteStream offset="1245" nBytes="220" />
+					</h4:tableData>
+					<!-- row(s) for verification; csv format Section 4.3 - Ground Track 
+						Data Over This Event[0]=2147483647,2147483647,340282346638528859811704183484516925440.000000,340282346638528859811704183484516925440.000000,340282346638528859811704183484516925440.000000 
+						Section 4.3 - Ground Track Data Over This Event[10]=20020227,113431,77.049873,60.111786,230.009399 -->
+				</h4:Table>
+			</h4:Group>
+		</h4:Group>
+		<h4:Group name="Section 5.0 - Pressure Surface-based  MetData"
+			path="/" class="Pressure Surface-based Data" id="ID_G8">
+			<h4:Table name="Tropopause Data"
+				path="/Section 5.0 - Pressure Surface-based  MetData" class="Pressure Surface-based Data"
+				nRows="1" nColumns="3" id="ID_T8">
+				<h4:Column name="Tropopause Temperature (K)" nEntries="1"
+					id="ID_C39">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Tropopause Geometric Altitude (km)"
+					nEntries="1" id="ID_C40">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Data Source Indicator (1=DAO 2=NCEP 3=NONE"
+					nEntries="1" id="ID_C41">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:tableData>
+					<h4:byteStream offset="3182" nBytes="12" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Tropopause Data[0]=999999961690316245365415600208216064.000000,999999994495727286427992885035008.000000,2 -->
+			</h4:Table>
+			<h4:Table name="Pressure Data"
+				path="/Section 5.0 - Pressure Surface-based  MetData" class="Pressure Surface-based Data"
+				nRows="18" nColumns="4" id="ID_T9">
+				<h4:Column name="Pressure (hPa)" nEntries="1" id="ID_C42">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Temperature (K)" nEntries="1" id="ID_C43">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Temperature Uncertainty (K)" nEntries="1"
+					id="ID_C44">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Geometric Altitude (km)" nEntries="1"
+					id="ID_C45">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:tableData storageOrder="by row">
+					<h4:byteStream offset="3194" nBytes="288" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Pressure Data[0]=1000.000000,269.000000,3.000000,-0.011000 
+					Pressure Data[17]=0.400000,256.000000,12.000000,53.224998 -->
+			</h4:Table>
+		</h4:Group>
+		<h4:Group name="Section 6.0 - CCD Information" path="/"
+			class="CCD Information" id="ID_G9">
+			<h4:Table name="Section 6.0 - CCD Information" path="/Section 6.0 - CCD Information"
+				class="CCD Information" nRows="86" nColumns="4" id="ID_T10">
+				<h4:Column name="Starting CCD Pixel Number" nEntries="1"
+					id="ID_C46">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Ending CCD Pixel Number" nEntries="1"
+					id="ID_C47">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:Column name="Central Wavelength PG n (nm)" nEntries="1"
+					id="ID_C48">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Half-Bandwidth of PG n (nm)" nEntries="1"
+					id="ID_C49">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:tableData storageOrder="by row">
+					<h4:byteStream offset="3964" nBytes="1376" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Section 6.0 - CCD Information[0]=7,12,290.068054,2.811035 
+					Section 6.0 - CCD Information[85]=794,794,1023.942993,0.460510 -->
+			</h4:Table>
+		</h4:Group>
+		<h4:Group name="Section 7.0 - Altitude-based Profiles" path="/"
+			class="Altitude-based Profiles" id="ID_G10">
+			<h4:Table name="Section 7.0 - Altitude-based Profiles" path="/Section 7.0 - Altitude-based Profiles"
+				class="Altitude-based Profiles" nRows="200" nColumns="5" id="ID_T11">
+				<h4:Column name="Geometric Altitude (km)" nEntries="1"
+					id="ID_C50">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Pressure (hPa)" nEntries="1" id="ID_C51">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Temperature (K)" nEntries="1" id="ID_C52">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="Temperature Uncertainty (K)" nEntries="1"
+					id="ID_C53">
+					<h4:datum dataType="float32" byteOrder="bigEndian"
+						floatingPointFormat="IEEE" />
+				</h4:Column>
+				<h4:Column name="P/T Array Source Flag (0-4)" nEntries="1"
+					id="ID_C54">
+					<h4:datum dataType="int32" byteOrder="bigEndian" />
+				</h4:Column>
+				<h4:tableData storageOrder="by row">
+					<h4:byteStream offset="5554" nBytes="4000" />
+				</h4:tableData>
+				<!-- row(s) for verification; csv format Section 7.0 - Altitude-based 
+					Profiles[0]=0.500000,936.663818,265.750397,3.000000,2 Section 7.0 - Altitude-based 
+					Profiles[199]=100.000000,0.000301,189.726730,10.618256,1 -->
+			</h4:Table>
+			<h4:Group name="Section 7.1 - Transmission Profiles" path="/Section 7.0 - Altitude-based Profiles"
+				class="Altitude-based Profiles" id="ID_G11">
+				<h4:Table name="Section 7.l - Transmission Profiles"
+					path="/Section 7.0 - Altitude-based Profiles/Section 7.1 - Transmission Profiles"
+					class="Altitude-based Profiles" nRows="17400" nColumns="3" id="ID_T12">
+					<h4:Column name="Transmission Profile" nEntries="1" id="ID_C55">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Transmission Profile standard deviation"
+						nEntries="1" id="ID_C56">
+						<h4:datum dataType="float32" byteOrder="bigEndian"
+							floatingPointFormat="IEEE" />
+					</h4:Column>
+					<h4:Column name="Transmission Profile QA bit flags"
+						nEntries="1" id="ID_C57">
+						<h4:datum dataType="int32" byteOrder="bigEndian" />
+					</h4:Column>
+					<h4:tableData storageOrder="by row">
+						<h4:byteStream offset="9554" nBytes="208800" />
+					</h4:tableData>
+					<!-- row(s) for verification; csv format Section 7.l - Transmission 
+						Profiles[0]=0.500000,340282346638528859811704183484516925440.000000,0 Section 
+						7.l - Transmission Profiles[17399]=0.000000,0.000000,0 -->
+				</h4:Table>
+			</h4:Group>
+		</h4:Group>
+	</h4:HDF4FileContents>
+</h4:HDF4map>
