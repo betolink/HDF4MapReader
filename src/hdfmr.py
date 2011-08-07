@@ -116,26 +116,26 @@ def main():
         print "Required argument [-f|--file] or [-d] missing"
         print ""
         usage(args)
-        exit(-1)
+        sys.exit(-1)
     if options.filename != None:
         if not os.path.exists( options.filename): 
             print "The file does not exist or it is an incorrect filename: " + options.filename
             print ""
             usage(args)
-            exit(-1)
+            sys.exit(-1)
   
     if options.list==None and options.object==None:
         print " -l or -e required"
         print ""
         usage()
-        exit(-1)
+        sys.exit(-1)
     if (options.list and options.object):
         print "Options -l and -e are mutually exclusive"
         print ""
         print options
         print ""
         usage(args)
-        exit(-1)
+        sys.exit(-1)
         
     if options.list not in ["VData","SDS","RIS","MDATA","ALL"] and options.object not in ["VData","SDS","RIS","MDATA","ALL"]:
         print " A valid HDF object name is required"
@@ -143,7 +143,7 @@ def main():
         print options
         print ""
         usage(args)
-        exit(-1)
+        sys.exit(-1)
     
     
     if options.filename is not None:                
@@ -154,7 +154,7 @@ def main():
                 print "Directory created :" + options.filename
             except:
                 print "Failed to create a sub directory to store the output files: " + options.filename
-                exit(-1)                        
+                sys.exit(-1)                        
         else:
             print "The output directory already exist: " + options.filename
                         
@@ -165,10 +165,10 @@ def main():
     
             parser= XMLparser(options.filename,"e",options.object,options.output,options.verbose)
             if parser.tree is None:
-                exit(-1)
+                sys.exit(-1)
             exit_code=parser.parseAndDumpMapContent()
             print "Dumping complete"
-            exit(exit_code)
+            sys.exit(exit_code)
     else:
     
         dumper= Reader(options.dir + "/")

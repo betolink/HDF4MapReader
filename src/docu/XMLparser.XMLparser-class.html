@@ -3,474 +3,407 @@
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>XMLparser.XMLparser</title>
-<link rel="stylesheet" href="epydoc.css" type="text/css" />
-<script type="text/javascript" src="epydoc.js"></script>
+  <title>XMLparser.XMLparser</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
 </head>
 
 <body bgcolor="white" text="black" link="blue" vlink="#204080"
-	alink="#204080">
+      alink="#204080">
 <!-- ==================== NAVIGATION BAR ==================== -->
 <table class="navbar" border="0" width="100%" cellpadding="0"
-	bgcolor="#a0c0ff" cellspacing="0">
-	<tr valign="middle">
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
 
-		<!-- Tree link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Index link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Help link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Project homepage -->
-		<th class="navbar" align="right" width="100%">
-		<table border="0" cellpadding="0" cellspacing="0">
-			<tr>
-				<th class="navbar" align="center"><a
-					class="navbar" target="_top"
-					href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map
-				Reader</a></th>
-			</tr>
-		</table>
-		</th>
-	</tr>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+          </tr></table></th>
+  </tr>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0">
-	<tr valign="top">
-		<td width="100%"><span class="breadcrumbs"> <a
-			href="XMLparser-module.html">Module&nbsp;XMLparser</a> ::
-		Class&nbsp;XMLparser </span></td>
-		<td>
-		<table cellpadding="0" cellspacing="0">
-			<!-- hide/show private -->
-			<tr>
-				<td align="right"><span class="options">[<a
-					href="javascript:void(0);" class="privatelink"
-					onclick="toggle_private();">hide&nbsp;private</a>]</span></td>
-			</tr>
-			<tr>
-				<td align="right"><span class="options">[<a
-					href="frames.html" target="_top">frames</a>]&nbsp;|&nbsp;<a
-					href="XMLparser.XMLparser-class.html" target="_top">no&nbsp;frames</a>]</span></td>
-			</tr>
-		</table>
-		</td>
-	</tr>
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="XMLparser-module.html">Module&nbsp;XMLparser</a> ::
+        Class&nbsp;XMLparser
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="XMLparser.XMLparser-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class XMLparser</h1>
-<p class="nomargin-top"><span class="codelink"><a
-	href="XMLparser-pysrc.html#XMLparser">source&nbsp;code</a></span></p>
-<p>This module recursively parses an XML map file looking for
-supported xml tags. These tags contain metadata about an HDF object in
-an HDF file. If a supported tag is found the class creates an instance
-of &quot;HDFhandler&quot;, this class will load the HDF file and return
-the object data in a normalized buffer.</p>
-<p>This buffer and the xml tag are passed then to the handler
-class(in this iteration just VData). The handler classes are in charge
-of reconstruct the HDF objects and return them as Python data
-structures.</p>
+<h1 class="epydoc">Class XMLparser</h1><p class="nomargin-top"><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser">source&nbsp;code</a></span></p>
+<p>This module recursively parses an XML map file looking for supported 
+  xml tags. These tags contain metadata about an HDF object in an HDF file.
+  If a supported tag is found the class creates an instance of 
+  &quot;HDFhandler&quot;, this class will load the HDF file and return the 
+  object data in a normalized buffer.</p>
+  <p>This buffer and the xml tag are passed then to the handler class(in 
+  this iteration just VData). The handler classes are in charge of 
+  reconstruct the HDF objects and return them as Python data 
+  structures.</p>
 
 <!-- ==================== INSTANCE METHODS ==================== -->
 <a name="section-InstanceMethods"></a>
-<table class="summary" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr bgcolor="#70b0f0" class="table-header">
-		<td colspan="2" class="table-header">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr valign="top">
-				<td align="left"><span class="table-header">Instance
-				Methods</span></td>
-				<td align="right" valign="top"><span class="options">[<a
-					href="#section-InstanceMethods" class="privatelink"
-					onclick="toggle_private();">hide private</a>]</span></td>
-			</tr>
-		</table>
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					href="XMLparser.XMLparser-class.html#ExtractValidationData"
-					class="summary-sig-name">ExtractValidationData</a>(<span
-					class="summary-sig-arg">self</span>, <span class="summary-sig-arg">node</span>)</span><br />
-				Appends the validation values to a dictionary on the dataValidator
-				class</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					href="XMLparser.XMLparser-class.html#__init__"
-					class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
-				<span class="summary-sig-arg">map_file</span>, <span
-					class="summary-sig-arg">operation</span>, <span
-					class="summary-sig-arg">hdf_object</span>, <span
-					class="summary-sig-arg">dump_format</span>, <span
-					class="summary-sig-arg">sds_dump_headers</span>, <span
-					class="summary-sig-arg">verbose</span>)</span><br />
-				Constructor:</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					href="XMLparser.XMLparser-class.html#getNodeAttribute"
-					class="summary-sig-name">getNodeAttribute</a>(<span
-					class="summary-sig-arg">self</span>, <span class="summary-sig-arg">node</span>,
-				<span class="summary-sig-arg">tag</span>, <span
-					class="summary-sig-arg">attrib_name</span>)</span><br />
-				returns the xml attribute of an xml node that matches a given tag
-				and attribute</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.getNodeAttribute">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					href="XMLparser.XMLparser-class.html#getNodeText"
-					class="summary-sig-name">getNodeText</a>(<span
-					class="summary-sig-arg">self</span>, <span class="summary-sig-arg">node</span>,
-				<span class="summary-sig-arg">tag</span>)</span><br />
-				returns the text on an xml node that matches a given tag</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.getNodeText">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					name="parseAndDumpMapContent"></a><span class="summary-sig-name">parseAndDumpMapContent</span>(<span
-					class="summary-sig-arg">self</span>)</span><br />
-				Parses the XML map and dumps or list the HDF4 objects that are
-				found.</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.parseAndDumpMapContent">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
-	<tr>
-		<td width="15%" align="right" valign="top" class="summary"><span
-			class="summary-type">&nbsp;</span></td>
-		<td class="summary">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr>
-				<td><span class="summary-sig"><a
-					href="XMLparser.XMLparser-class.html#recursiveWalk"
-					class="summary-sig-name">recursiveWalk</a>(<span
-					class="summary-sig-arg">self</span>, <span class="summary-sig-arg">root_node</span>,
-				<span class="summary-sig-arg">depth</span>)</span><br />
-				This recursive function traverse the XML document using the
-				ElementTree API; all the nodess are stored in a tree-like structure.</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>
-
-				</td>
-			</tr>
-		</table>
-
-		</td>
-	</tr>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#ExtractValidationData" class="summary-sig-name">ExtractValidationData</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>)</span><br />
+      Appends the validation values to a dictionary on the dataValidator 
+      class</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">map_file</span>,
+        <span class="summary-sig-arg">operation</span>,
+        <span class="summary-sig-arg">hdf_object</span>,
+        <span class="summary-sig-arg">output_format</span>,
+        <span class="summary-sig-arg">verbose</span>)</span><br />
+      Constructor:</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#getNodeAttribute" class="summary-sig-name">getNodeAttribute</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>,
+        <span class="summary-sig-arg">tag</span>,
+        <span class="summary-sig-arg">attrib_name</span>)</span><br />
+      returns the xml attribute of an xml node that matches a given tag and
+      attribute</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.getNodeAttribute">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#getNodeText" class="summary-sig-name">getNodeText</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>,
+        <span class="summary-sig-arg">tag</span>)</span><br />
+      returns the text on an xml node that matches a given tag</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.getNodeText">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="parseAndDumpMapContent"></a><span class="summary-sig-name">parseAndDumpMapContent</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Parses the XML map and dumps or list the HDF4 objects that are found.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.parseAndDumpMapContent">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="XMLparser.XMLparser-class.html#recursiveWalk" class="summary-sig-name">recursiveWalk</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">root_node</span>,
+        <span class="summary-sig-arg">depth</span>)</span><br />
+      This recursive function traverse the XML document using the 
+      ElementTree API; all the nodess are stored in a tree-like structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
 </table>
 <!-- ==================== METHOD DETAILS ==================== -->
 <a name="section-MethodDetails"></a>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr bgcolor="#70b0f0" class="table-header">
-		<td colspan="2" class="table-header">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr valign="top">
-				<td align="left"><span class="table-header">Method
-				Details</span></td>
-				<td align="right" valign="top"><span class="options">[<a
-					href="#section-MethodDetails" class="privatelink"
-					onclick="toggle_private();">hide private</a>]</span></td>
-			</tr>
-		</table>
-		</td>
-	</tr>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
 </table>
 <a name="ExtractValidationData"></a>
 <div>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr>
-		<td>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr valign="top">
-				<td>
-				<h3 class="epydoc"><span class="sig"><span
-					class="sig-name">ExtractValidationData</span>(<span class="sig-arg">self</span>,
-				<span class="sig-arg">node</span>)</span></h3>
-				</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>&nbsp;
-				</td>
-			</tr>
-		</table>
-
-		<p>Appends the validation values to a dictionary on the
-		dataValidator class</p>
-		<dl class="fields">
-			<dt>Parameters:</dt>
-			<dd>
-			<ul class="nomargin-top">
-				<li><strong class="pname"><code>node</code></strong> - an HDF
-				object (lxml node instance)</li>
-			</ul>
-			</dd>
-		</dl>
-		</td>
-	</tr>
-</table>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">ExtractValidationData</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.ExtractValidationData">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Appends the validation values to a dictionary on the dataValidator 
+  class</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - an HDF object (lxml node instance)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
 </div>
 <a name="__init__"></a>
 <div>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr>
-		<td>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr valign="top">
-				<td>
-				<h3 class="epydoc"><span class="sig"><span
-					class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
-				<span class="sig-arg">map_file</span>, <span class="sig-arg">operation</span>,
-				<span class="sig-arg">hdf_object</span>, <span class="sig-arg">dump_format</span>,
-				<span class="sig-arg">sds_dump_headers</span>, <span class="sig-arg">verbose</span>)</span>
-				<br />
-				<em class="fname">(Constructor)</em></h3>
-				</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>&nbsp;
-				</td>
-			</tr>
-		</table>
-
-		<p>Constructor:</p>
-		<dl class="fields">
-			<dt>Parameters:</dt>
-			<dd>
-			<ul class="nomargin-top">
-				<li><strong class="pname"><code>map_file</code></strong> - HDF4
-				xml map file generated by the HDF4 map writer</li>
-				<li><strong class="pname"><code>operation</code></strong> -
-				read / dump content of the HDF file</li>
-				<li><strong class="pname"><code>hdf_object</code></strong> -
-				target objects inside the HDf file (SDS, VData, RIS, ALL)</li>
-				<li><strong class="pname"><code>dump_format</code></strong> -
-				binary / ascii in CSV files</li>
-			</ul>
-			</dd>
-		</dl>
-		</td>
-	</tr>
-</table>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">map_file</span>,
+        <span class="sig-arg">operation</span>,
+        <span class="sig-arg">hdf_object</span>,
+        <span class="sig-arg">output_format</span>,
+        <span class="sig-arg">verbose</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Constructor:</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>map_file</code></strong> - HDF4 xml map file generated by the HDF4 map writer</li>
+        <li><strong class="pname"><code>operation</code></strong> - read / dump content of the HDF file</li>
+        <li><strong class="pname"><code>hdf_object</code></strong> - target objects inside the HDf file (SDS, VData, RIS, ALL)</li>
+        <li><strong class="pname"><code>dump_format</code></strong> - binary / ascii in CSV files /numpy table</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
 </div>
 <a name="getNodeAttribute"></a>
 <div>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr>
-		<td>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr valign="top">
-				<td>
-				<h3 class="epydoc"><span class="sig"><span
-					class="sig-name">getNodeAttribute</span>(<span class="sig-arg">self</span>,
-				<span class="sig-arg">node</span>, <span class="sig-arg">tag</span>,
-				<span class="sig-arg">attrib_name</span>)</span></h3>
-				</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.getNodeAttribute">source&nbsp;code</a></span>&nbsp;
-				</td>
-			</tr>
-		</table>
-
-		<p>returns the xml attribute of an xml node that matches a given
-		tag and attribute</p>
-		<dl class="fields">
-			<dt>Parameters:</dt>
-			<dd>
-			<ul class="nomargin-top">
-				<li><strong class="pname"><code>node</code></strong> - an HDF
-				object node (lxml node instance)</li>
-				<li><strong class="pname"><code>tag</code></strong> - xml tag</li>
-				<li><strong class="pname"><code>attrib_name</code></strong> -
-				xml attribute</li>
-			</ul>
-			</dd>
-		</dl>
-		</td>
-	</tr>
-</table>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getNodeAttribute</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>,
+        <span class="sig-arg">tag</span>,
+        <span class="sig-arg">attrib_name</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.getNodeAttribute">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>returns the xml attribute of an xml node that matches a given tag and 
+  attribute</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - an HDF object node (lxml node instance)</li>
+        <li><strong class="pname"><code>tag</code></strong> - xml tag</li>
+        <li><strong class="pname"><code>attrib_name</code></strong> - xml attribute</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
 </div>
 <a name="getNodeText"></a>
 <div>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr>
-		<td>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr valign="top">
-				<td>
-				<h3 class="epydoc"><span class="sig"><span
-					class="sig-name">getNodeText</span>(<span class="sig-arg">self</span>,
-				<span class="sig-arg">node</span>, <span class="sig-arg">tag</span>)</span>
-				</h3>
-				</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.getNodeText">source&nbsp;code</a></span>&nbsp;
-				</td>
-			</tr>
-		</table>
-
-		<p>returns the text on an xml node that matches a given tag</p>
-		<dl class="fields">
-			<dt>Parameters:</dt>
-			<dd>
-			<ul class="nomargin-top">
-				<li><strong class="pname"><code>tag</code></strong> - xml tag</li>
-				<li><strong class="pname"><code>node</code></strong> - an HDF
-				object node (lxml node instance)</li>
-			</ul>
-			</dd>
-		</dl>
-		</td>
-	</tr>
-</table>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getNodeText</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>,
+        <span class="sig-arg">tag</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.getNodeText">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>returns the text on an xml node that matches a given tag</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>tag</code></strong> - xml tag</li>
+        <li><strong class="pname"><code>node</code></strong> - an HDF object node (lxml node instance)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
 </div>
 <a name="recursiveWalk"></a>
 <div>
-<table class="details" border="1" cellpadding="3" cellspacing="0"
-	width="100%" bgcolor="white">
-	<tr>
-		<td>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0">
-			<tr valign="top">
-				<td>
-				<h3 class="epydoc"><span class="sig"><span
-					class="sig-name">recursiveWalk</span>(<span class="sig-arg">self</span>,
-				<span class="sig-arg">root_node</span>, <span class="sig-arg">depth</span>)</span>
-				</h3>
-				</td>
-				<td align="right" valign="top"><span class="codelink"><a
-					href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>&nbsp;
-				</td>
-			</tr>
-		</table>
-
-		<p>This recursive function traverse the XML document using the
-		ElementTree API; all the nodess are stored in a tree-like structure.
-		If a tag is recognized the method uses &quot;self.operation&quot; to
-		either print a short version of the XML file or extract the object
-		into to a CSV file.</p>
-		<p>If a 'Group' tag is found, the attribute 'ID' is inserted in a
-		stack; its node will have this value as prefix for the file name. This
-		is accumulative, if a given VData object is under the group ID_ABC and
-		ID_DEF the CSV file will be named: G-ID_ABC-G-ID_DEF.csv</p>
-		<dl class="fields">
-			<dt>Parameters:</dt>
-			<dd>
-			<ul class="nomargin-top">
-				<li><strong class="pname"><code>root_node</code></strong> -
-				lxml root node of the map file</li>
-				<li><strong class="pname"><code>depth</code></strong> - used to
-				keep track of the recursion level, 0 on the first call</li>
-			</ul>
-			</dd>
-		</dl>
-		</td>
-	</tr>
-</table>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">recursiveWalk</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">root_node</span>,
+        <span class="sig-arg">depth</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="XMLparser-pysrc.html#XMLparser.recursiveWalk">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This recursive function traverse the XML document using the 
+  ElementTree API; all the nodess are stored in a tree-like structure. If a
+  tag is recognized the method uses &quot;self.operation&quot; to either 
+  print a short version of the XML file or extract the object into to a CSV
+  file.</p>
+  <p>If a 'Group' tag is found, the attribute 'ID' is inserted in a stack; 
+  its node will have this value as prefix for the file name. This is 
+  accumulative, if a given VData object is under the group ID_ABC and 
+  ID_DEF the CSV file will be named: G-ID_ABC-G-ID_DEF.csv</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>root_node</code></strong> - lxml root node of the map file</li>
+        <li><strong class="pname"><code>depth</code></strong> - used to keep track of the recursion level, 0 on the first call</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
 </div>
 <br />
 <!-- ==================== NAVIGATION BAR ==================== -->
 <table class="navbar" border="0" width="100%" cellpadding="0"
-	bgcolor="#a0c0ff" cellspacing="0">
-	<tr valign="middle">
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
 
-		<!-- Tree link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Index link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Help link -->
-		<th>&nbsp;&nbsp;&nbsp;<a href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
-		<!-- Project homepage -->
-		<th class="navbar" align="right" width="100%">
-		<table border="0" cellpadding="0" cellspacing="0">
-			<tr>
-				<th class="navbar" align="center"><a
-					class="navbar" target="_top"
-					href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map
-				Reader</a></th>
-			</tr>
-		</table>
-		</th>
-	</tr>
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+          </tr></table></th>
+  </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
-	<tr>
-		<td align="left" class="footer">Generated by Epydoc 3.0.1 on Mon
-		Aug 1 12:38:14 2011</td>
-		<td align="right" class="footer"><a target="mainFrame"
-			href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
-		</td>
-	</tr>
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sun Aug  7 13:40:51 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
 </table>
 
 <script type="text/javascript">
