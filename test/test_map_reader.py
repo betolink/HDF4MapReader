@@ -91,7 +91,7 @@ class TestMapReader(unittest.TestCase):
         self.create_dump_dir(self.parser.xml_file + "_dump")
         code=self.parser.parseAndDumpMapContent()
         self.assertEqual(code,0)        
-        self.tear_down(self.parser.xml_file + "_dump")
+#        self.tear_down(self.parser.xml_file + "_dump")
         
 
 if __name__ == "__main__":

@@ -23,23 +23,45 @@ hdf4MapReader  is the main module, it parses command line argument as follows:
 
 Usage: 
         for a single file:
-            ./hdfmr -f [filename] -l|-e [HDF_object] [-b] [-r]        
         
-        for all the maps that match the pattern in the given directory
-            ./hdfmr -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-b] [-r]
+            ./hdfmr -f [filename] -l|-e [HDF_object] [-n] [-v]       
+        
+        
+        for all the maps that match a pattern in a given directory:
+        
+            ./hdfmr -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-n] [-v]
 
+        Parameters:
+        
         [filename]: a Valid XML map file
 
-        -e: extract the object(s)
+        -e: extract
 
-        -l: list the object(s)
+        -l: list 
         
-        -b: raw binary data, endianess is preserved, if this parameter is not present the data will be dumped in 
-            ASCII into a CSV file
-            
-        -r: just data for SDS arrays, without headers( dimensional and data info) 
+        -n: numpy binary file, endianess is preserved, if not present the data will be dumped in 
+            ASCII format into a CSV file
+        
+        -v: print detailed output
 
         [HDF_object]: VData, SDS, RIS, ALL
+
+
+HDF Objects supported in current version: Groups, VData, SDS, RIS (8bit)
+
+If we want to extract just SDS arrays into CSV files from file.HDF with its map file.xml we can use:
+
+    ./hdfmr -f file.xml -e SDS 
+
+if we want to extract all the objects in the map we use:
+
+    ./hdfmr -f file.xml -e ALL
+
+if we want to dump just binary files:
+
+    ./hdfmr -f file.xml -e ALL -n
+
+Note: be careful with relative paths on the map files, the paths are absolute by default when using hdf4mapwriter.
 
 
 HDF Objects supported in current version: Groups, VData, SDS, RIS (8bit)
@@ -83,7 +105,7 @@ def main():
     parser.add_option("-e", "--extract", dest="object",
                   help="Extracts all the mapped objects in the XML FILE", metavar="OBJECTS")
     
-    parser.add_option("-o", "--output", dest="output",default=False,nargs=0,
+    parser.add_option("-n", "--numpy", dest="output",default=None,nargs=0,
                   help="Extracts each selected object in a binary .dat file", metavar="DUMP")
     
     parser.add_option("-d", "--directory", dest="dir",

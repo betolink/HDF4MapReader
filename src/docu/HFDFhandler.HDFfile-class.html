@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>HFDFhandler.HDFfile</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="HFDFhandler-module.html">Module&nbsp;HFDFhandler</a> ::
+        Class&nbsp;HDFfile
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="HFDFhandler.HDFfile-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class HDFfile</h1><p class="nomargin-top"><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile">source&nbsp;code</a></span></p>
+<p>This class loads an HDF file and uses 'linearizeDataSpace' to put all 
+  the parts of an HDF object together.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">schema</span>,
+        <span class="summary-sig-arg">hdf_fileName</span>)</span><br />
+      Constructor</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#get_data" class="summary-sig-name">get_data</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">offset</span>,
+        <span class="summary-sig-arg">bytes</span>)</span><br />
+      Extracts raw bytes from the HDF file.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_data">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#linearizeDataSpace" class="summary-sig-name">linearizeDataSpace</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>,
+        <span class="summary-sig-arg">type</span>)</span><br />
+      The function aggregates all the chunks/blocks/cubes of an HDF object 
+      into a linear buffer</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearizeDataSpace">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#linearize_RIS" class="summary-sig-name">linearize_RIS</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>)</span><br />
+      Linearizes bytes of a RIS image.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_RIS">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#linearize_VDATA" class="summary-sig-name">linearize_VDATA</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>)</span><br />
+      Linearizes bytes of a VData table</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_VDATA">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#linearize_SDS" class="summary-sig-name">linearize_SDS</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>)</span><br />
+      Linearizes bytes of an SDS array</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_SDS">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#aggregate_byteStreams" class="summary-sig-name">aggregate_byteStreams</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sds_info</span>)</span><br />
+      aggregates bytes stored in linear chunks using sds_info</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.aggregate_byteStreams">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#get_fill_values" class="summary-sig-name">get_fill_values</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sds_info</span>)</span><br />
+      returns fill valued items</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_fill_values">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#aggregate_multidimensional_chunks" class="summary-sig-name">aggregate_multidimensional_chunks</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sds_info</span>,
+        <span class="summary-sig-arg">chunks</span>)</span><br />
+      recursively aggregates multidimensional chunks to a multidimensional 
+      cube, the dimension must be the same for both.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.aggregate_multidimensional_chunks">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#get_chunk_pos" class="summary-sig-name">get_chunk_pos</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">chunk_node</span>)</span><br />
+      returns the offsets of the chunk in the SDS array, i.e.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_chunk_pos">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="HFDFhandler.HDFfile-class.html#create_array" class="summary-sig-name">create_array</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sds_info</span>,
+        <span class="summary-sig-arg">buffer</span>)</span><br />
+      creates a numpy array from raw uncompressed bytes</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.create_array">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">schema</span>,
+        <span class="sig-arg">hdf_fileName</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Constructor</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>schema</code></strong> - XML schema for the map file</li>
+        <li><strong class="pname"><code>hdf_filename</code></strong> - location of the HDF file, this location is written on the map 
+          file.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_data"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_data</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">offset</span>,
+        <span class="sig-arg">bytes</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_data">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Extracts raw bytes from the HDF file. Used by RIS palettes.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="linearizeDataSpace"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">linearizeDataSpace</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>,
+        <span class="sig-arg">type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearizeDataSpace">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>The function aggregates all the chunks/blocks/cubes of an HDF object 
+  into a linear buffer</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - lxml node of any given HDF object from the map file</li>
+        <li><strong class="pname"><code>type</code></strong> - HDF object type, SDS, VData, RIS</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="linearize_RIS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">linearize_RIS</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_RIS">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Linearizes bytes of a RIS image.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - lxml RIS node</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="linearize_VDATA"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">linearize_VDATA</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_VDATA">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Linearizes bytes of a VData table</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - lxml VData node</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="linearize_SDS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">linearize_SDS</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.linearize_SDS">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Linearizes bytes of an SDS array</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - lxml SDS node</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="aggregate_byteStreams"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">aggregate_byteStreams</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">sds_info</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.aggregate_byteStreams">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>aggregates bytes stored in linear chunks using sds_info</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sds_info</code></strong> - an instance of sds_info that holds information about the SDS.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_fill_values"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_fill_values</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">sds_info</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_fill_values">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>returns fill valued items</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>sds_info</code></strong> - an instance of sds_info that holds information about the SDS.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="aggregate_multidimensional_chunks"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">aggregate_multidimensional_chunks</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">sds_info</span>,
+        <span class="sig-arg">chunks</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.aggregate_multidimensional_chunks">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>recursively aggregates multidimensional chunks to a multidimensional 
+  cube, the dimension must be the same for both.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>chunks</code></strong> - instance of 'chunk' transforms plain bytes into a n-dimensional 
+          chunk.</li>
+        <li><strong class="pname"><code>sds_info</code></strong> - an instance of sds_info that holds information about the SDS.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_chunk_pos"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_chunk_pos</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">chunk_node</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.get_chunk_pos">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>returns the offsets of the chunk in the SDS array, i.e. [0,0,100]</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>chunk_node</code></strong> - lxml chunk node</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="create_array"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">create_array</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">sds_info</span>,
+        <span class="sig-arg">buffer</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="HFDFhandler-pysrc.html#HDFfile.create_array">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>creates a numpy array from raw uncompressed bytes</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>buffer</code></strong> - bytes for the SDS</li>
+        <li><strong class="pname"><code>sds_info</code></strong> - an instance of sds_info that holds information about the SDS.</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://sourceforge.net/projects/hdf4mapreader/">HDF4 Map Reader</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sun Aug  7 13:40:51 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

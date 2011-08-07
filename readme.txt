@@ -8,8 +8,8 @@
 *	Interpreter: Python 2.6+
 * 	License: GPL v3		
 *														
-*	Proyect home: http://hdf4mapreader.sourceforge.net/							
-*	SVN : svn co https://hdf4mapreader.svn.sourceforge.net/svnroot/hdf4mapreader/hdfmr/trunk					
+*	Proyect home: http://hdfmr.sourceforge.net/							
+*	SVN : svn co https://hdfmr.svn.sourceforge.net/svnroot/hdfmr/hdfmr/trunk					
 *														
 *	Comments/questions: lopez@kryos.colorado.org								
 *														
@@ -24,12 +24,12 @@ More information about this project can be found on:
 http://www.hdfgroup.org/projects/h4map/ 
 
 
-About the hdf4MapReader tool:
+About the hdfmr tool:
 
-'hdf4MapReader' is a multi-platform command line tool written in Python that aims to be a starting point for new 
+'hdfmr' is a multi-platform command line tool written in Python that aims to be a starting point for new 
 HDF-map related software. Its main function is to extract information from HDF files without using the HDF APIs. 
 
-'hdf4MapReader' extracts supported datasets into CSV or binary files that can be imported in almost any database 
+'hdfmr' extracts supported datasets into CSV or binary files that can be imported in almost any database 
 or data process. The tool has been implemented with Python and uses Numpy and lxml libraries.
 
 note: since this tool was developed at the same time as the writer it does not use the xsd schema and most 
@@ -58,12 +58,12 @@ include the dependencies and ASCII encoding.
 Usage: 
         for a single file:
         
-            ./hdf4MapReader -f [filename] -l|-e [HDF_object] [-b] [-r] [-v]       
+            ./hdfmr -f [filename] -l|-e [HDF_object] [-n] [-v]       
         
         
         for all the maps that match a pattern in a given directory:
         
-            ./hdf4MapReader -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-b] [-r] [-v]
+            ./hdfmr -d [base directory] -p [UNIX file pattern] -l|-e [HDF_object] [-n] [-v]
 
         Parameters:
         
@@ -73,10 +73,8 @@ Usage:
 
         -l: list 
         
-        -b: raw binary data, endianess is preserved, if this parameter is not present the data will be dumped in 
+        -n: numpy binary file, endianess is preserved, if not present the data will be dumped in 
             ASCII format into a CSV file
-            
-        -r: just data for SDS arrays, while present it dumps the SDS without headers( dimensional and data info) 
         
         -v: print detailed output
 
@@ -87,17 +85,17 @@ HDF Objects supported in current version: Groups, VData, SDS, RIS (8bit)
 
 If we want to extract just SDS arrays into CSV files from file.HDF with its map file.xml we can use:
 
-	./hdf4MapReader -f file.xml -e SDS 
+	./hdfmr -f file.xml -e SDS 
 
 if we want to extract all the objects in the map we use:
 
-	./hdf4MapReader -f file.xml -e ALL
+	./hdfmr -f file.xml -e ALL
 
 if we want to dump just binary files:
 
-	./hdf4MapReader -f file.xml -e ALL -b
+	./hdfmr -f file.xml -e ALL -n
 
-
+Note: be careful with relative paths on the map files, the paths are absolute by default when using hdf4mapwriter.
 
 *****************************************************************************************************************
 29/JUL/2011
