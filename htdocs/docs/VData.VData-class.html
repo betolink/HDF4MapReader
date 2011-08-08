@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>VData.VData</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://sourceforge.net/projects/hdf4mapreader/">HDF map reader</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="VData-module.html">Module&nbsp;VData</a> ::
+        Class&nbsp;VData
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="VData.VData-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class VData</h1><p class="nomargin-top"><span class="codelink"><a href="VData-pysrc.html#VData">source&nbsp;code</a></span></p>
+<p>This class is in charge of VData extraction from a linear buffer. 
+  VData objects are returned as a Python table (list of rows).</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="VData.VData-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">schema</span>)</span><br />
+      Constructor</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VData-pysrc.html#VData.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="VData.VData-class.html#dataSpaceToColumns" class="summary-sig-name">dataSpaceToColumns</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">columns_offset</span>,
+        <span class="summary-sig-arg">table_rows</span>,
+        <span class="summary-sig-arg">linear_buffer</span>)</span><br />
+      This method is a little workaround to speed up the unpack function, 
+      if we unpack byte streams row by row we will have to process 
+      different types of data.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VData-pysrc.html#VData.dataSpaceToColumns">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="VData.VData-class.html#getColumn" class="summary-sig-name">getColumn</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">column</span>,
+        <span class="summary-sig-arg">num_rows</span>,
+        <span class="summary-sig-arg">column_offset</span>,
+        <span class="summary-sig-arg">column_entries</span>,
+        <span class="summary-sig-arg">linear_buffer</span>)</span><br />
+      This method uses the format of a column to extract it from the buffer
+      and processes a little formating; if the column has more than one 
+      entry theses entries are concatenated using the | character if the 
+      data type is float or double the function 
+      &quot;fixFloatingPoint&quot;  is used to normalize the internal 
+      representation.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VData-pysrc.html#VData.getColumn">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="VData.VData-class.html#Extract" class="summary-sig-name">Extract</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">node</span>,
+        <span class="summary-sig-arg">linear_buffer</span>,
+        <span class="summary-sig-arg">dump_format</span>)</span><br />
+      Extract a single VData object, the method returns the object as a 
+      Table.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VData-pysrc.html#VData.Extract">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">schema</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="VData-pysrc.html#VData.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Constructor</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>schema</code></strong> - XML schema for the map file</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="dataSpaceToColumns"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">dataSpaceToColumns</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">columns_offset</span>,
+        <span class="sig-arg">table_rows</span>,
+        <span class="sig-arg">linear_buffer</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="VData-pysrc.html#VData.dataSpaceToColumns">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This method is a little workaround to speed up the unpack function, if
+  we unpack byte streams row by row we will have to process different types
+  of data. If we switch the data space as if the varying dimension was 
+  &quot;column&quot; we can unpack n elements of the same data type.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>columns_offset</code></strong> - offset for the column elements.</li>
+        <li><strong class="pname"><code>table_rows</code></strong> - number of rows in the VData table</li>
+        <li><strong class="pname"><code>linear_buffer</code></strong> - VData uncompressed bytes</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getColumn"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getColumn</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">column</span>,
+        <span class="sig-arg">num_rows</span>,
+        <span class="sig-arg">column_offset</span>,
+        <span class="sig-arg">column_entries</span>,
+        <span class="sig-arg">linear_buffer</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="VData-pysrc.html#VData.getColumn">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This method uses the format of a column to extract it from the buffer 
+  and processes a little formating; if the column has more than one entry 
+  theses entries are concatenated using the | character if the data type is
+  float or double the function &quot;fixFloatingPoint&quot;  is used to 
+  normalize the internal representation.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>column</code></strong> - VData column</li>
+        <li><strong class="pname"><code>num_rows</code></strong> - number of rows to process</li>
+        <li><strong class="pname"><code>column</code></strong>, <strong class="pname"><code>offset</code></strong> - offset in bytes for each element in the column</li>
+        <li><strong class="pname"><code>column</code></strong>, <strong class="pname"><code>entries</code></strong> - number of items in the same column</li>
+        <li><strong class="pname"><code>liinear</code></strong>, <strong class="pname"><code>buffer</code></strong> - VData uncompressed bytes</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="Extract"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">Extract</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">node</span>,
+        <span class="sig-arg">linear_buffer</span>,
+        <span class="sig-arg">dump_format</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="VData-pysrc.html#VData.Extract">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Extract a single VData object, the method returns the object as a 
+  Table. The parameter 'node' has to be an ElemenTree node of a 
+  &quot;Table&quot; XML tag. This tag contains the necessary metadata to 
+  extract and reconstruct the VData object.</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>node</code></strong> - lxml VData node instance</li>
+        <li><strong class="pname"><code>linear_buffer</code></strong> - VData uncompressed bytes</li>
+        <li><strong class="pname"><code>dump_format</code></strong> - binary/ASCII</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://sourceforge.net/projects/hdf4mapreader/">HDF map reader</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sun Aug  7 16:08:39 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
