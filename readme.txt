@@ -7,7 +7,7 @@
 	Interpreter: Python 2.6+
  	License: GPL v3		
 														
-Proyect home: http://hdfmr.sourceforge.net/							
+Proyect home: http://hdf4mapreader.sourceforge.net/							
 SVN : svn co https://hdfmr.svn.sourceforge.net/svnroot/hdfmr/hdfmr/trunk					
 														
 Comments/questions: lopez@kryos.colorado.edu								
