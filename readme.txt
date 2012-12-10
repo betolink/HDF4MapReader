@@ -1,4 +1,4 @@
-##	HDF MAP READER	##							
+	HDF MAP READER							
 														
 	Version: 1.0											
 	Date: 21/JUL/2011										
