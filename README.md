@@ -16,7 +16,7 @@ HDF stands for Hierarchical Data Format. This file format is widely used by NASA
 
 More information about this project can be found on: 
 
-> [http://www.hdfgroup.org/projects/h4map/] [1]
+> [http://www.hdfgroup.org/projects/h4map/](http://www.hdfgroup.org/projects/h4map/)
 
 Version
 -
