@@ -53,7 +53,7 @@ class XMLparser():
             print "The Map file could not be found or contains not well-formed XML, please verify it" , self.xml_file
             return None
         
-        self.schema="{" + self.tree.attrib["{http://www.w3.org/2001/XMLSchema-instance}schemaLocation"].split(" ")[0] + "}"#a workaround to get the schema 
+        self.schema="{http://www.hdfgroup.org/HDF4/XML/schema/HDF4map/1.0.1}" 
         
         try:
             file_node_info=self.hdf_file_name=self.tree.find(self.schema + "HDF4FileInformation").getchildren()
