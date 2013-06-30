@@ -4,9 +4,13 @@ Created on Jun 19, 2011
 @contact: lopez at kryos.colorado.edu
 '''
 import unittest
-from XMLparser import XMLparser
 import shutil
 import os
+import sys
+
+sys.path.append("../src/")
+
+from XMLparser import XMLparser
 
 class TestMapReader(unittest.TestCase):
 
